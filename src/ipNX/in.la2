@@ -1,0 +1,14 @@
+
+Interface                      Status         Protocol Description
+Fa0/0                          up             down
+Fa0/1                          up             up       SAF E3 connection to Bayero BTS
+Fa0/1.605                      up             up       BAGCO LINK
+Fa0/0/0                        up             down     NPM physical connection for SC1
+Fa0/0/1                        up             up       LINK TO FBN_FAGGE AND BOLLORE
+Fa0/0/2                        up             up       CONNECTION TO RMS
+Fa0/0/3                        up             up       CONNECTION TO SW_GLOBAL
+Vl1                            up             down
+Vl410                          up             up
+Vl420                          up             up
+Vl605                          up             down
+Lo0                            up             up
