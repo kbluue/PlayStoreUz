@@ -1,0 +1,46 @@
+"C:\Program Files\Java\jdk1.8.0_101\bin\java" -Didea.launcher.port=7538 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Users\_kbluue_\OneDrive\Documents\Uzor\out\production\Uzor;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain com.company.HKR
+1 --> 1 --> 0:0.0
+2 --> 2 --> 0:0.0
+4 --> 3 --> 0:0.0
+7 --> 4 --> 0:0.0
+13 --> 5 --> 0:0.0
+24 --> 6 --> 0:0.0
+44 --> 7 --> 0:0.0
+81 --> 8 --> 0:0.0
+149 --> 9 --> 0:0.0
+274 --> 10 --> 0:0.0
+504 --> 11 --> 0:0.0
+927 --> 12 --> 0:0.0
+1705 --> 13 --> 0:0.0
+3136 --> 14 --> 0:0.0
+5768 --> 15 --> 0:0.0
+10609 --> 16 --> 0:0.0
+19513 --> 17 --> 0:0.0
+35890 --> 18 --> 0:0.0
+66012 --> 19 --> 0:0.0
+121415 --> 20 --> 0:0.0
+223317 --> 21 --> 0:0.0
+410744 --> 22 --> 0:0.0
+755476 --> 23 --> 0:0.0
+1389537 --> 24 --> 0:0.0
+2555757 --> 25 --> 0:0.0
+4700770 --> 26 --> 0:0.1
+8646064 --> 27 --> 0:0.2
+15902591 --> 28 --> 0:0.5
+29249425 --> 29 --> 0:0.12
+53798080 --> 30 --> 0:0.30
+98950096 --> 31 --> 0:0.28
+181997601 --> 32 --> 0:0.54
+334745777 --> 33 --> 0:1.62
+615693474 --> 34 --> 0:1.51
+1132436852 --> 35 --> 0:2.44
+2082876103 --> 36 --> 0:4.50
+3831006429 --> 37 --> 0:8.34
+7046319384 --> 38 --> 0:15.18
+12960201916 --> 39 --> 0:34.81
+23837527729 --> 40 --> 1:7.61
+43844049029 --> 41 --> 1:52.74
+80641778674 --> 42 --> 3:17.58
+148323355432 --> 43 --> 5:53.23
+
+Process finished with exit code 0

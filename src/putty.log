@@ -1,0 +1,972 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.12.14 14:02:30 =~=~=~=~=~=~=~=~=~=~=~=
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Username: wea st
+Password: 
+
+VI_Switch_COMMS_ROOM#62.173.34.130
+Trying 62.173.34.130 ... Open
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+
+User Access Verification
+
+Username: west
+Password: 
+
+YAB-PE-01#sh it nt des
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       NPM PHYSICAL SC 1
+Gi1/2                          down           down     NPM PHYSICAL SC 2
+Gi1/3                          down           down     NPM PHYSICAL SC 3
+Gi1/4                          down           down     
+Gi1/5                          down           down     SAF PTP OCEANIC HQ
+Gi1/6                          up             up       CONNECTION TO WAEC YABA
+Gi1/7                          up             up       P2P for RTGS / FBN Backhaul Marina
+Gi1/8                          down           down     SAF CONNECTION TO UBA HQ
+Gi1/9                          up             up       UBNT TO FIRST BANK UNILAG
+Gi1/10                         down           down     CONNECTION TO RMS-200
+Gi1/11                         down           down     
+Gi1/12                         admin down     down     FAULTY PORT
+Gi1/13                         up             up       UBNT TO FBN TEJUOSHO
+Gi1/14                         up             up       SIDMACH-WAEC LINK SAFMON
+Gi1/15                         up             up       FIRSTBANK HQ LINK SAFMON
+Gi1/16                         down           down     OCEANICBANK HQ LINK SAFMON
+Gi1/17                         up             up       CONNECTION TO PARKWAY PROJECT_BACKUP RADIO LINK TO FTTH
+Gi1/18                         down           down     RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+Gi1/18.37                      down           down     FRIGOGLASS EBUTEMETA - MGT
+Gi1/18.38                      deleted        down     
+Gi1/18.206                     deleted        down     
+Gi1/18.306                     down           down     FRIGOGLASS EBUTEMETA - DATA
+Gi1/19                         admin down     down     
+Gi1/20                         up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+Gi1/21                         up             up       UBIQUITY LINK TO UAIB, MURITALA MOHAMMED YABA (MGT-172.16.71.88/29) & (62.173.44.180&181)
+Gi1/22                         admin down     down     
+Gi1/23                         up             up       MGT-CERAGON LINK TO GBAGADA BST
+Gi1/24                         up             up       UBNT TO MUTUAL BENEFIT(R-172.16.81.3;Moved to Cyberspace-NNI); GTL YABA(R-172.16.81.4,D-41.184.35.186/29)
+Gi1/24.100                     deleted        down     
+Gi1/25                         up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+Gi1/25.50                      up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+Gi1/26                         admin down     down     
+Gi1/27                         up             up       RADWIN TO NAFDAC YABA
+Gi1/27.17                      deleted        down     
+Gi1/27.18                      deleted        down     
+Gi1/28                         admin down     down     
+Gi1/29                         up             up       CONNECTION TO SCIB YABA(R-172.16.76.115,D-172.16.76.116)% ACCESS BANK SABO(R-172.16.74.138,D-172.16.76.118)
+Gi1/30                         up             up       SAF LINK TO ICAN EBUTEMMETA
+Gi1/31                         up             up       UBNT TO TRACE TV DANNY ESTATE
+Gi1/32                         up             up       
+Gi1/32.53                      up             up       
+ --More--         Gi1/32.306                     deleted        down     
+Gi1/33                         up             up       SYSTEM SUPPORT SOLUTION ENTERPRISE/ABK_CHAMBERS (172.16.90.3;62.173.44.46)
+Gi1/34                         admin down     down     
+Gi1/35                         down           down     
+Gi1/36                         admin down     down     
+Gi1/37                         admin down     down     
+Gi1/38                         admin down     down     
+Gi1/39                         up             up       
+Gi1/40                         down           down     
+Gi1/41                         admin down     down     
+Gi1/42                         admin down     down     
+Gi1/43                         admin down     down     
+Gi1/44                         admin down     down     
+Gi1/45                         admin down     down     
+Gi1/46                         admin down     down     
+Gi1/47                         admin down     down     
+Gi1/48                         admin down     down     
+Gi6/1                          up             up       Connection to YAB-P-01
+Gi6/2                          up             up       RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+Gi6/2.3                        deleted        down     
+Gi6/2.37                       up             up       FRIGOGLASS EBUTEMETA - MGT
+Gi6/2.39                       deleted        down     
+Gi6/2.40                       deleted        down     
+Gi6/2.44                       deleted        down     
+Gi6/2.70                       deleted        down     
+Gi6/2.306                      up             up       FRIGOGLASS EBUTEMETA - DATA
+Gi6/2.510                      deleted        down     
+Gi6/2.511                      deleted        down     
+Gi6/2.512                      deleted        down     
+Gi6/2.513                      deleted        down     
+Gi6/2.514                      deleted        down     
+Gi6/2.522                      deleted        down     
+Gi6/2.523                      deleted        down     
+Gi6/2.524                      deleted        down     
+Gi6/2.525                      deleted        down     
+GM131                          up             up       
+Lo0                            up             up       
+Vl1                            up             up       
+Vl2                            down           down     
+Vl11                           up             up       AU 1 Interface
+Vl12                           up             up       AU 2 Interface
+Vl13                           up             up       AU 3 Interface
+Vl14                           up             up       AU 4 Interface
+Vl15                           up             up       AU 5 Interface
+Vl16                           up             up       AU 6 Interface
+ --More--         Vl20                           up             up       Interface for Internet Users
+Vl25                           up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+Vl27                           up             up       ICAN INTERNET CONNECTION
+Vl28                           up             up       VPN CONNECTION FOR ICAN EBUTEMETTA(WAN-172.16.67.252)
+Vl29                           up             up       Connection to IPNX-FBN-C2821-Router
+Vl47                           down           down     Logical Interface to GTB HQ
+Vl48                           up             up       
+Vl49                           up             up       
+Vl62                           up             up       YABA SAFMON SUBNET
+Vl76                           up             up       
+Vl77                           up             up       
+Vl78                           up             up       
+Vl96                           up             up       CONNECTION TO UBA_2821_ROUTER
+Vl131                          up             up       interface for FIDELITY vrf
+Vl132                          up             up       interface for FIDELITY vrf
+Vl171                          up             up       TE vrf for intercontinental marina
+Vl222                          up             up       Interface for FirstBank RTGS(10.163.32.22)
+Vl410                          up             up       
+YAB-PE-01#sh run int Gi1/8
+Building configuration...
+
+Current configuration : 151 bytes
+!
+interface GigabitEthernet1/8
+ description SAF CONNECTION TO UBA HQ
+ switchport
+ switchport mode trunk
+ load-interval 30
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi1/39
+Building configuration...
+
+Current configuration : 52 bytes
+!
+interface GigabitEthernet1/39
+ no ip address
+end
+
+YAB-PE-01#sh run int Gi1/9
+Building configuration...
+
+Current configuration : 246 bytes
+!
+interface GigabitEthernet1/9
+ description UBNT TO FIRST BANK UNILAG
+ ip address 172.16.81.25 255.255.255.248 secondary
+ ip address 10.62.0.129 255.255.255.252
+ no ip redirects
+ speed 100
+ duplex full
+ no cdp enable
+ spanning-tree portfast
+end
+
+YAB-PE-01#sh run int Gi1/35
+Building configuration...
+
+Current configuration : 52 bytes
+!
+interface GigabitEthernet1/35
+ no ip address
+end
+
+YAB-PE-01#sh run int Gi1/33
+Building configuration...
+
+Current configuration : 322 bytes
+!
+interface GigabitEthernet1/33
+ description SYSTEM SUPPORT SOLUTION ENTERPRISE/ABK_CHAMBERS (172.16.90.3;62.173.44.46)
+ ip address 62.173.44.45 255.255.255.252 secondary
+ ip address 172.16.90.1 255.255.255.248
+ no ip redirects
+ service-policy input GTL_YABA_ABK_CHAMBERS
+ service-policy output GTL_YABA_ABK_CHAMBERS
+end
+
+YAB-PE-01#sh run int Gi1/1
+Building configuration...
+
+Current configuration : 155 bytes
+!
+interface GigabitEthernet1/1
+ description NPM PHYSICAL SC 1
+ switchport
+ switchport access vlan 410
+ switchport mode access
+ spanning-tree portfast
+end
+
+YAB-PE-01#sh run int Gi1/2
+Building configuration...
+
+Current configuration : 155 bytes
+!
+interface GigabitEthernet1/2
+ description NPM PHYSICAL SC 2
+ switchport
+ switchport access vlan 410
+ switchport mode access
+ spanning-tree portfast
+end
+
+YAB-PE-01#sh run int Gi1/3
+Building configuration...
+
+Current configuration : 155 bytes
+!
+interface GigabitEthernet1/3
+ description NPM PHYSICAL SC 3
+ switchport
+ switchport access vlan 410
+ switchport mode access
+ spanning-tree portfast
+end
+
+YAB-PE-01#sh run int Gi1/4
+Building configuration...
+
+Current configuration : 99 bytes
+!
+interface GigabitEthernet1/4
+ switchport
+ switchport access vlan 20
+ switchport mode access
+end
+
+YAB-PE-01#sh run int Gi1/18.37
+Building configuration...
+
+Current configuration : 95 bytes
+!
+interface GigabitEthernet1/18.37
+ description FRIGOGLASS EBUTEMETA - MGT
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Gi1/5
+Building configuration...
+
+Current configuration : 188 bytes
+!
+interface GigabitEthernet1/5
+ description SAF PTP OCEANIC HQ
+ switchport
+ switchport access vlan 11
+ switchport mode access
+ load-interval 30
+ speed 100
+ duplex full
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Gi1/6
+Building configuration...
+
+Current configuration : 222 bytes
+!
+interface GigabitEthernet1/6
+ description CONNECTION TO WAEC YABA
+ ip address 172.16.64.209 255.255.255.248
+ load-interval 30
+ speed 100
+ duplex full
+ service-policy input WAEC_YABA
+ service-policy output WAEC_YABA
+end
+
+YAB-PE-01#sh run int Gi1/7
+Building configuration...
+
+Current configuration : 161 bytes
+!
+interface GigabitEthernet1/7
+ description P2P for RTGS / FBN Backhaul Marina
+ switchport
+ switchport mode trunk
+ load-interval 30
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi6/2.306
+Building configuration...
+
+Current configuration : 168 bytes
+!
+interface GigabitEthernet6/2.306
+ description FRIGOGLASS EBUTEMETA - DATA
+ encapsulation dot1Q 306
+ no cdp enable
+ xconnect 62.173.34.145 306 encapsulation mpls
+end
+
+YAB-PE-01#sh run int Gi1/40
+Building configuration...
+
+Current configuration : 52 bytes
+!
+interface GigabitEthernet1/40
+ no ip address
+end
+
+YAB-PE-01#sh run int Vl1
+Building configuration...
+
+Current configuration : 55 bytes
+!
+interface Vlan1
+ no ip address
+ no ip redirects
+end
+
+YAB-PE-01#sh run int Vl2
+Building configuration...
+
+Current configuration : 76 bytes
+!
+interface Vlan2
+ ip address 10.50.2.2 255.255.255.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl76
+Building configuration...
+
+Current configuration : 106 bytes
+!
+interface Vlan76
+ ip vrf forwarding DIAMOND
+ ip address 10.163.32.1 255.255.254.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl77
+Building configuration...
+
+Current configuration : 106 bytes
+!
+interface Vlan77
+ ip vrf forwarding DIAMOND
+ ip address 10.163.40.1 255.255.254.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl78
+Building configuration...
+
+Current configuration : 107 bytes
+!
+interface Vlan78
+ ip vrf forwarding DIAMOND
+ ip address 192.168.23.1 255.255.255.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int GM131
+Building configuration...
+
+Current configuration : 72 bytes
+!
+interface GMPLS131
+ no ip address
+ no ip redirects
+ no keepalive
+end
+
+YAB-PE-01#sh run int Vl25
+Building configuration...
+
+Current configuration : 473 bytes
+!
+interface Vlan25
+ description IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+ ip address 172.16.71.89 255.255.255.248 secondary
+ ip address 62.173.44.177 255.255.255.248 secondary
+ ip address 172.16.75.185 255.255.255.252 secondary
+ ip address 172.16.71.97 255.255.255.248
+ no ip redirects
+ service-policy input INTERNET_CLIENTS_X3
+ service-policy output INTERNET_CLIENTS_X3
+end
+
+YAB-PE-01#sh run int Vl222
+Building configuration...
+
+Current configuration : 139 bytes
+!
+interface Vlan222
+ description Interface for FirstBank RTGS(10.163.32.22)
+ ip vrf forwarding FBNCBN
+ no ip address
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl27
+Building configuration...
+
+Current configuration : 158 bytes
+!
+interface Vlan27
+ description ICAN INTERNET CONNECTION
+ ip address 62.173.60.97 255.255.255.248
+ service-policy input ICAN
+ service-policy output ICAN
+end
+
+YAB-PE-01#sh run int Vl28
+Building configuration...
+
+Current configuration : 133 bytes
+!
+interface Vlan28
+ description VPN CONNECTION FOR ICAN EBUTEMETTA(WAN-172.16.67.252)
+ ip address 172.16.67.249 255.255.255.248
+end
+
+YAB-PE-01#sh run int Vl29
+Building configuration...
+
+Current configuration : 210 bytes
+!
+interface Vlan29
+ description Connection to IPNX-FBN-C2821-Router
+ ip address 172.16.66.161 255.255.255.252
+ ip ospf cost 15
+ ip ospf mtu-ignore
+ load-interval 30
+ mpls label protocol ldp
+ mpls mtu 1524
+end
+
+YAB-PE-01#sh run int Gi1/10
+Building configuration...
+
+Current configuration : 168 bytes
+!
+interface GigabitEthernet1/10
+ description CONNECTION TO RMS-200
+ switchport
+ switchport access vlan 410
+ switchport mode access
+ load-interval 30
+ no keepalive
+end
+
+YAB-PE-01#sh run int Vl62
+Building configuration...
+
+Current configuration : 97 bytes
+!
+interface Vlan62
+ description YABA SAFMON SUBNET
+ ip address 172.16.62.49 255.255.255.240
+end
+
+YAB-PE-01#sh run int Vl20
+Building configuration...
+
+Current configuration : 252 bytes
+!
+interface Vlan20
+ description Interface for Internet Users
+ ip address 62.173.40.129 255.255.255.192
+ ip access-group Internet_Users in
+ no ip redirects
+ ip flow ingress
+ service-policy input Internet_Users
+ service-policy output Internet_Users
+end
+
+YAB-PE-01#sh run int Gi1/17
+Building configuration...
+
+Current configuration : 245 bytes
+!
+interface GigabitEthernet1/17
+ description CONNECTION TO PARKWAY PROJECT_BACKUP RADIO LINK TO FTTH
+ ip address 172.16.68.57 255.255.255.248
+ speed 10
+ duplex half
+ service-policy input Policy_Parkway
+ service-policy output Policy_Parkway
+end
+
+YAB-PE-01#sh run int Gi1/18
+Building configuration...
+
+Current configuration : 147 bytes
+!
+interface GigabitEthernet1/18
+ description RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+ no ip address
+ load-interval 30
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi1/15
+Building configuration...
+
+Current configuration : 138 bytes
+!
+interface GigabitEthernet1/15
+ description FIRSTBANK HQ LINK SAFMON
+ switchport
+ switchport access vlan 62
+ switchport mode access
+end
+
+YAB-PE-01#sh run int Gi1/16
+Building configuration...
+
+Current configuration : 140 bytes
+!
+interface GigabitEthernet1/16
+ description OCEANICBANK HQ LINK SAFMON
+ switchport
+ switchport access vlan 62
+ switchport mode access
+end
+
+YAB-PE-01#sh run int Gi1/13
+Building configuration...
+
+Current configuration : 180 bytes
+!
+interface GigabitEthernet1/13
+ description UBNT TO FBN TEJUOSHO
+ ip address 172.16.80.249 255.255.255.248 secondary
+ ip address 10.62.0.249 255.255.255.252
+ no ip redirects
+end
+
+YAB-PE-01#sh run int Gi1/18.306
+Building configuration...
+
+Current configuration : 97 bytes
+!
+interface GigabitEthernet1/18.306
+ description FRIGOGLASS EBUTEMETA - DATA
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Gi1/14
+Building configuration...
+
+Current configuration : 138 bytes
+!
+interface GigabitEthernet1/14
+ description SIDMACH-WAEC LINK SAFMON
+ switchport
+ switchport access vlan 62
+ switchport mode access
+end
+
+YAB-PE-01#sh run int Gi1/11
+Building configuration...
+
+Current configuration : 52 bytes
+!
+interface GigabitEthernet1/11
+ no ip address
+end
+
+YAB-PE-01#sh run int Gi6/2
+Building configuration...
+
+Current configuration : 173 bytes
+!
+interface GigabitEthernet6/2
+ description RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+ mtu 1850
+ no ip address
+ load-interval 30
+ media-type rj45
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi6/1
+Building configuration...
+
+Current configuration : 245 bytes
+!
+interface GigabitEthernet6/1
+ description Connection to YAB-P-01
+ mtu 1850
+ ip address 62.173.35.217 255.255.255.252
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ load-interval 30
+ mpls ip
+ mpls label protocol ldp
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Vl13
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface Vlan13
+ description AU 3 Interface
+ ip address 10.163.36.1 255.255.254.0
+ no ip redirects
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl410
+Building configuration...
+
+Current configuration : 133 bytes
+!
+interface Vlan410
+ ip address 172.28.11.5 255.255.255.248
+ ip flow ingress
+ ip ospf hello-interval 1
+ ip ospf dead-interval 5
+end
+
+YAB-PE-01#sh run int Vl14
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface Vlan14
+ description AU 4 Interface
+ ip address 10.163.38.1 255.255.254.0
+ no ip redirects
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl15
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface Vlan15
+ description AU 5 Interface
+ ip address 10.163.40.1 255.255.254.0
+ no ip redirects
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl16
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface Vlan16
+ description AU 6 Interface
+ ip address 10.163.42.1 255.255.254.0
+ no ip redirects
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl131
+Building configuration...
+
+Current configuration : 149 bytes
+!
+interface Vlan131
+ description interface for FIDELITY vrf
+ ip vrf forwarding FIDELITY
+ ip address 192.168.43.1 255.255.255.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl132
+Building configuration...
+
+Current configuration : 148 bytes
+!
+interface Vlan132
+ description interface for FIDELITY vrf
+ ip vrf forwarding FIDELITY
+ ip address 10.163.40.1 255.255.254.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Gi1/20
+Building configuration...
+
+Current configuration : 251 bytes
+!
+interface GigabitEthernet1/20
+ description IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+ switchport
+ switchport access vlan 25
+ switchport mode access
+end
+
+YAB-PE-01#sh run int Vl171
+Building configuration...
+
+Current configuration : 160 bytes
+!
+interface Vlan171
+ description TE vrf for intercontinental marina
+ ip vrf forwarding INTERCONCBN
+ ip address 192.168.23.1 255.255.255.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Gi1/21
+Building configuration...
+
+Current configuration : 227 bytes
+!
+interface GigabitEthernet1/21
+ description UBIQUITY LINK TO UAIB, MURITALA MOHAMMED YABA (MGT-172.16.71.88/29) & (62.173.44.180&181)
+ switchport
+ switchport access vlan 25
+ switchport mode access
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Vl96
+Building configuration...
+
+Current configuration : 156 bytes
+!
+interface Vlan96
+ description CONNECTION TO UBA_2821_ROUTER
+ ip address 172.16.72.125 255.255.255.252
+ ip accounting output-packets
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl11
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface Vlan11
+ description AU 1 Interface
+ ip address 10.163.32.1 255.255.254.0
+ no ip redirects
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl12
+Building configuration...
+
+Current configuration : 237 bytes
+!
+interface Vlan12
+ description AU 2 Interface
+ ip address 10.163.34.1 255.255.254.0
+ no ip redirects
+ ip accounting output-packets
+ ip flow ingress
+ service-policy input CORPORATE_SERVICES
+ service-policy output CORPORATE_SERVICES
+end
+
+YAB-PE-01#sh run int Gi1/29
+Building configuration...
+
+Current configuration : 336 bytes
+!
+interface GigabitEthernet1/29
+ description CONNECTION TO SCIB YABA(R-172.16.76.115,D-172.16.76.116)% ACCESS BANK SABO(R-172.16.74.138,D-172.16.76.118)
+ ip address 172.16.74.137 255.255.255.248 secondary
+ ip address 172.16.76.113 255.255.255.248
+ no ip redirects
+ service-policy input CLIENTS_X2
+ service-policy output CLIENTS_X2
+end
+
+YAB-PE-01#sh run int Gi1/27
+Building configuration...
+
+Current configuration : 114 bytes
+!
+interface GigabitEthernet1/27
+ description RADWIN TO NAFDAC YABA
+ ip address 172.16.69.145 255.255.255.248
+end
+
+YAB-PE-01#sh run int Gi1/24
+Building configuration...
+
+Current configuration : 358 bytes
+!
+interface GigabitEthernet1/24
+ description UBNT TO MUTUAL BENEFIT(R-172.16.81.3;Moved to Cyberspace-NNI); GTL YABA(R-172.16.81.4,D-41.184.35.186/29)
+ ip address 172.16.81.1 255.255.255.248 secondary
+ ip address 41.184.35.93 255.255.255.252 secondary
+ ip address 41.184.35.185 255.255.255.248
+ no ip redirects
+ load-interval 30
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi1/25
+Building configuration...
+
+Current configuration : 236 bytes
+!
+interface GigabitEthernet1/25
+ description GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+ no ip address
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi1/23
+Building configuration...
+
+Current configuration : 124 bytes
+!
+interface GigabitEthernet1/23
+ description MGT-CERAGON LINK TO GBAGADA BST
+ ip address 172.16.70.201 255.255.255.248
+end
+
+YAB-PE-01#sh run int Gi1/32.53
+Building configuration...
+
+Current configuration : 128 bytes
+!
+interface GigabitEthernet1/32.53
+ encapsulation dot1Q 53 native
+ ip address 172.16.80.233 255.255.255.248
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Lo0
+Building configuration...
+
+Current configuration : 69 bytes
+!
+interface Loopback0
+ ip address 62.173.34.130 255.255.255.255
+end
+
+YAB-PE-01#sh run int Gi6/2.37
+Building configuration...
+
+Current configuration : 160 bytes
+!
+interface GigabitEthernet6/2.37
+ description FRIGOGLASS EBUTEMETA - MGT
+ encapsulation dot1Q 37
+ ip address 172.16.80.161 255.255.255.248
+ no cdp enable
+end
+
+YAB-PE-01#sh run int Vl47
+Building configuration...
+
+Current configuration : 135 bytes
+!
+interface Vlan47
+ description Logical Interface to GTB HQ
+ bandwidth 256
+ no ip address
+ ip mtu 1496
+ ip flow ingress
+ delay 30
+end
+
+YAB-PE-01#sh run int Gi1/25.50
+Building configuration...
+
+Current configuration : 472 bytes
+!
+interface GigabitEthernet1/25.50
+ description GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+ encapsulation dot1Q 50 native
+ ip address 62.173.56.5 255.255.255.252 secondary
+ ip address 172.16.73.153 255.255.255.248
+ no ip redirects
+ no cdp enable
+ service-policy input ACCESS_TRAINING_SABO_2MBPS_INTERNET
+ service-policy output ACCESS_TRAINING_SABO_2MBPS_INTERNET
+end
+
+YAB-PE-01#sh run int Vl48
+Building configuration...
+
+Current configuration : 103 bytes
+!
+interface Vlan48
+ ip vrf forwarding GTBV
+ ip address 10.163.40.1 255.255.254.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Vl49
+Building configuration...
+
+Current configuration : 103 bytes
+!
+interface Vlan49
+ ip vrf forwarding GTBV
+ ip address 10.163.32.1 255.255.254.0
+ ip flow ingress
+end
+
+YAB-PE-01#sh run int Gi1/31
+Building configuration...
+
+Current configuration : 190 bytes
+!
+interface GigabitEthernet1/31
+ description UBNT TO TRACE TV DANNY ESTATE
+ ip address 172.16.80.73 255.255.255.248 secondary
+ ip address 62.173.56.245 255.255.255.252
+ no ip redirects
+end
+
+YAB-PE-01#sh run int Gi1/32
+Building configuration...
+
+Current configuration : 76 bytes
+!
+interface GigabitEthernet1/32
+ no ip address
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#sh run int Gi1/30
+Building configuration...
+
+Current configuration : 225 bytes
+!
+interface GigabitEthernet1/30
+ description SAF LINK TO ICAN EBUTEMMETA
+ switchport
+ switchport trunk native vlan 28
+ switchport trunk allowed vlan 27,28
+ switchport mode trunk
+ load-interval 30
+ speed 100
+ duplex full
+end
+
+YAB-PE-01#
+[Connection to 62.173.34.130 closed by foreign host]
+VI_Switch_COMMS_ROOM#

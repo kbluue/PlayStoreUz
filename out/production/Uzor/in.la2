@@ -1,0 +1,106 @@
+
+Interface                      Status         Protocol Description
+Gi1/1                          up             up       NPM PHYSICAL SC 1
+Gi1/2                          down           down     NPM PHYSICAL SC 2
+Gi1/3                          down           down     NPM PHYSICAL SC 3
+Gi1/4                          down           down
+Gi1/5                          down           down     SAF PTP OCEANIC HQ
+Gi1/6                          up             up       CONNECTION TO WAEC YABA
+Gi1/7                          up             up       P2P for RTGS / FBN Backhaul Marina
+Gi1/8                          down           down     SAF CONNECTION TO UBA HQ
+Gi1/9                          up             up       UBNT TO FIRST BANK UNILAG
+Gi1/10                         down           down     CONNECTION TO RMS-200
+Gi1/11                         down           down
+Gi1/12                         admin down     down     FAULTY PORT
+Gi1/13                         up             up       UBNT TO FBN TEJUOSHO
+Gi1/14                         up             up       SIDMACH-WAEC LINK SAFMON
+Gi1/15                         up             up       FIRSTBANK HQ LINK SAFMON
+Gi1/16                         down           down     OCEANICBANK HQ LINK SAFMON
+Gi1/17                         up             up       CONNECTION TO PARKWAY PROJECT_BACKUP RADIO LINK TO FTTH
+Gi1/18                         down           down     RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+Gi1/18.37                      down           down     FRIGOGLASS EBUTEMETA - MGT
+Gi1/18.38                      deleted        down
+Gi1/18.206                     deleted        down
+Gi1/18.306                     down           down     FRIGOGLASS EBUTEMETA - DATA
+Gi1/19                         admin down     down
+Gi1/20                         up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+Gi1/21                         up             up       UBIQUITY LINK TO UAIB, MURITALA MOHAMMED YABA (MGT-172.16.71.88/29) & (62.173.44.180&181)
+Gi1/22                         admin down     down
+Gi1/23                         up             up       MGT-CERAGON LINK TO GBAGADA BST
+Gi1/24                         up             up       UBNT TO MUTUAL BENEFIT(R-172.16.81.3;Moved to Cyberspace-NNI); GTL YABA(R-172.16.81.4,D-41.184.35.186/29)
+Gi1/24.100                     deleted        down
+Gi1/25                         up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+Gi1/25.50                      up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
+Gi1/26                         admin down     down
+Gi1/27                         up             up       RADWIN TO NAFDAC YABA
+Gi1/27.17                      deleted        down
+Gi1/27.18                      deleted        down
+Gi1/28                         admin down     down
+Gi1/29                         up             up       CONNECTION TO SCIB YABA(R-172.16.76.115,D-172.16.76.116)% ACCESS BANK SABO(R-172.16.74.138,D-172.16.76.118)
+Gi1/30                         up             up       SAF LINK TO ICAN EBUTEMMETA
+Gi1/31                         up             up       UBNT TO TRACE TV DANNY ESTATE
+Gi1/32                         up             up
+Gi1/32.53                      up             up
+Gi1/32.306                     deleted        down
+Gi1/33                         up             up       SYSTEM SUPPORT SOLUTION ENTERPRISE/ABK_CHAMBERS (172.16.90.3;62.173.44.46)
+Gi1/34                         admin down     down
+Gi1/35                         down           down
+Gi1/36                         admin down     down
+Gi1/37                         admin down     down
+Gi1/38                         admin down     down
+Gi1/39                         up             up
+Gi1/40                         down           down
+Gi1/41                         admin down     down
+Gi1/42                         admin down     down
+Gi1/43                         admin down     down
+Gi1/44                         admin down     down
+Gi1/45                         admin down     down
+Gi1/46                         admin down     down
+Gi1/47                         admin down     down
+Gi1/48                         admin down     down
+Gi6/1                          up             up       Connection to YAB-P-01
+Gi6/2                          up             up       RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
+Gi6/2.3                        deleted        down
+Gi6/2.37                       up             up       FRIGOGLASS EBUTEMETA - MGT
+Gi6/2.39                       deleted        down
+Gi6/2.40                       deleted        down
+Gi6/2.44                       deleted        down
+Gi6/2.70                       deleted        down
+Gi6/2.306                      up             up       FRIGOGLASS EBUTEMETA - DATA
+Gi6/2.510                      deleted        down
+Gi6/2.511                      deleted        down
+Gi6/2.512                      deleted        down
+Gi6/2.513                      deleted        down
+Gi6/2.514                      deleted        down
+Gi6/2.522                      deleted        down
+Gi6/2.523                      deleted        down
+Gi6/2.524                      deleted        down
+Gi6/2.525                      deleted        down
+GM131                          up             up
+Lo0                            up             up
+Vl1                            up             up
+Vl2                            down           down
+Vl11                           up             up       AU 1 Interface
+Vl12                           up             up       AU 2 Interface
+Vl13                           up             up       AU 3 Interface
+Vl14                           up             up       AU 4 Interface
+Vl15                           up             up       AU 5 Interface
+Vl16                           up             up       AU 6 Interface
+Vl20                           up             up       Interface for Internet Users
+Vl25                           up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
+Vl27                           up             up       ICAN INTERNET CONNECTION
+Vl28                           up             up       VPN CONNECTION FOR ICAN EBUTEMETTA(WAN-172.16.67.252)
+Vl29                           up             up       Connection to IPNX-FBN-C2821-Router
+Vl47                           down           down     Logical Interface to GTB HQ
+Vl48                           up             up
+Vl49                           up             up
+Vl62                           up             up       YABA SAFMON SUBNET
+Vl76                           up             up
+Vl77                           up             up
+Vl78                           up             up
+Vl96                           up             up       CONNECTION TO UBA_2821_ROUTER
+Vl131                          up             up       interface for FIDELITY vrf
+Vl132                          up             up       interface for FIDELITY vrf
+Vl171                          up             up       TE vrf for intercontinental marina
+Vl222                          up             up       Interface for FirstBank RTGS(10.163.32.22)
+Vl410                          up             up
