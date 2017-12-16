@@ -1,20 +1,4 @@
-=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.12.14 14:02:30 =~=~=~=~=~=~=~=~=~=~=~=
-
-##############################################################################
-###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
-###  You must have explicit permission to access or configure this device. ###
-###  All activities performed on this device are logged, and violations    ###
-###  of this policy may result in disciplinary action and/or prosecution.  ###
-###  Illegal activities will be reported to the appropriate law enforcement### 
-###  agencies.                                                             ###
-###  There is no right to privacy on this device.                          ###
-##############################################################################
-
-Username: wea st
-Password: 
-
-VI_Switch_COMMS_ROOM#62.173.34.130
-Trying 62.173.34.130 ... Open
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.12.15 12:47:19 =~=~=~=~=~=~=~=~=~=~=~=
 
 ##############################################################################
 ###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
@@ -30,943 +14,297 @@ Trying 62.173.34.130 ... Open
 User Access Verification
 
 Username: west
+Password: 
+
+VI_Switch_COMMS_ROOM#sh run begin 
+                             ^
+% Invalid input detected at '^' marker.
+
+VI_Switch_COMMS_ROOM#sh unt   int des
+Interface                      Status         Protocol Description
+Vl1                            up             up       
+Vl13                           up             up       
+Vl14                           up             up       
+Gi0/1                          up             up       Connection to Switch 4 (NEW DC)
+Gi0/2                          down           down     InterswitchNG (NEW)
+Gi0/3                          down           down     GTB E3 WAN LINK
+Gi0/4                          down           down     InterswitchNG
+Gi0/5                          down           down     CONNECTION TO INTERWITCH CME2
+Gi0/6                          down           down     CRG LINK TO TOTAL_DATA
+Gi0/7                          up             up       Interswitch NIBSS Connection
+Gi0/8                          down           down     TEST PORT
+Gi0/9                          up             up       FIRS AGIDINGBI TO INTERSWITCH 
+Gi0/10                         down           down     
+Gi0/11                         up             up       Connection to Hygeia HMO Rack @ Datacentre
+Gi0/12                         down           down     SAF E3 Link to Access Bank Ligali Ayorinde DC
+Gi0/13                         down           down     DIAMOND BANK MGNT
+ --More--         
+VI_Switch_COMMS_ROOM#sh run pipe br egin Gi0/13
+                            ^
+% Invalid input detected at '^' marker.
+
+VI_Switch_COMMS_ROOM#41.184.62.3
+Trying 41.184.62.3 ... Open
+C
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement###
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Enter NETWORKADMIN Parameters: west
 Password: 
 
-YAB-PE-01#sh it nt des
+Lekki2_BST#sh    sh int des
 Interface                      Status         Protocol Description
-Gi1/1                          up             up       NPM PHYSICAL SC 1
-Gi1/2                          down           down     NPM PHYSICAL SC 2
-Gi1/3                          down           down     NPM PHYSICAL SC 3
-Gi1/4                          down           down     
-Gi1/5                          down           down     SAF PTP OCEANIC HQ
-Gi1/6                          up             up       CONNECTION TO WAEC YABA
-Gi1/7                          up             up       P2P for RTGS / FBN Backhaul Marina
-Gi1/8                          down           down     SAF CONNECTION TO UBA HQ
-Gi1/9                          up             up       UBNT TO FIRST BANK UNILAG
-Gi1/10                         down           down     CONNECTION TO RMS-200
-Gi1/11                         down           down     
-Gi1/12                         admin down     down     FAULTY PORT
-Gi1/13                         up             up       UBNT TO FBN TEJUOSHO
-Gi1/14                         up             up       SIDMACH-WAEC LINK SAFMON
-Gi1/15                         up             up       FIRSTBANK HQ LINK SAFMON
-Gi1/16                         down           down     OCEANICBANK HQ LINK SAFMON
-Gi1/17                         up             up       CONNECTION TO PARKWAY PROJECT_BACKUP RADIO LINK TO FTTH
-Gi1/18                         down           down     RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
-Gi1/18.37                      down           down     FRIGOGLASS EBUTEMETA - MGT
-Gi1/18.38                      deleted        down     
-Gi1/18.206                     deleted        down     
-Gi1/18.306                     down           down     FRIGOGLASS EBUTEMETA - DATA
-Gi1/19                         admin down     down     
-Gi1/20                         up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
-Gi1/21                         up             up       UBIQUITY LINK TO UAIB, MURITALA MOHAMMED YABA (MGT-172.16.71.88/29) & (62.173.44.180&181)
-Gi1/22                         admin down     down     
-Gi1/23                         up             up       MGT-CERAGON LINK TO GBAGADA BST
-Gi1/24                         up             up       UBNT TO MUTUAL BENEFIT(R-172.16.81.3;Moved to Cyberspace-NNI); GTL YABA(R-172.16.81.4,D-41.184.35.186/29)
-Gi1/24.100                     deleted        down     
-Gi1/25                         up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
-Gi1/25.50                      up             up       GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
-Gi1/26                         admin down     down     
-Gi1/27                         up             up       RADWIN TO NAFDAC YABA
-Gi1/27.17                      deleted        down     
-Gi1/27.18                      deleted        down     
-Gi1/28                         admin down     down     
-Gi1/29                         up             up       CONNECTION TO SCIB YABA(R-172.16.76.115,D-172.16.76.116)% ACCESS BANK SABO(R-172.16.74.138,D-172.16.76.118)
-Gi1/30                         up             up       SAF LINK TO ICAN EBUTEMMETA
-Gi1/31                         up             up       UBNT TO TRACE TV DANNY ESTATE
-Gi1/32                         up             up       
-Gi1/32.53                      up             up       
- --More--         Gi1/32.306                     deleted        down     
-Gi1/33                         up             up       SYSTEM SUPPORT SOLUTION ENTERPRISE/ABK_CHAMBERS (172.16.90.3;62.173.44.46)
-Gi1/34                         admin down     down     
-Gi1/35                         down           down     
-Gi1/36                         admin down     down     
-Gi1/37                         admin down     down     
-Gi1/38                         admin down     down     
-Gi1/39                         up             up       
-Gi1/40                         down           down     
-Gi1/41                         admin down     down     
-Gi1/42                         admin down     down     
-Gi1/43                         admin down     down     
-Gi1/44                         admin down     down     
-Gi1/45                         admin down     down     
-Gi1/46                         admin down     down     
-Gi1/47                         admin down     down     
-Gi1/48                         admin down     down     
-Gi6/1                          up             up       Connection to YAB-P-01
-Gi6/2                          up             up       RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
-Gi6/2.3                        deleted        down     
-Gi6/2.37                       up             up       FRIGOGLASS EBUTEMETA - MGT
-Gi6/2.39                       deleted        down     
-Gi6/2.40                       deleted        down     
-Gi6/2.44                       deleted        down     
-Gi6/2.70                       deleted        down     
-Gi6/2.306                      up             up       FRIGOGLASS EBUTEMETA - DATA
-Gi6/2.510                      deleted        down     
-Gi6/2.511                      deleted        down     
-Gi6/2.512                      deleted        down     
-Gi6/2.513                      deleted        down     
-Gi6/2.514                      deleted        down     
-Gi6/2.522                      deleted        down     
-Gi6/2.523                      deleted        down     
-Gi6/2.524                      deleted        down     
-Gi6/2.525                      deleted        down     
-GM131                          up             up       
+Gi0/0                          up             up       CFIP to HQ
+Gi0/1                          up             up       CERAGON LINK TO AJAH BST - DATA
+Fa0/3/0                        up             up       CHEVRON COOP, LEKKI(CPE-172.16.73.107;WAN-172.16.73.108)
+Fa0/3/1                        up             up       CERAGON LINK TO AJAH BST - MGT
+Fa0/3/2                        up             down     UNION BANK OJUMU
+Fa0/3/3                        up             down     ELEVATION_CHURCH_JAKANDE (RU: 172.16.81.107)
+Vl1                            up             down     
+Vl4                            up             down     ELEVATION_CHURCH_JAKANDE
+Vl5                            up             down     UNION BANK OJOMU(CPE: 172.16.74.19)
+Vl6                            up             up       CERAGON LINK TO AJAH BST - MGT
+Vl7                            up             up       CHEVRON COOP, LEKKI(WAN-172.16.73.108) MU- 172.16.73.106, R_T_BRISCOE (WAN - 10.62.1.74, RU - 172.16.73.109)
+Vl410                          up             down     
 Lo0                            up             up       
-Vl1                            up             up       
-Vl2                            down           down     
-Vl11                           up             up       AU 1 Interface
-Vl12                           up             up       AU 2 Interface
-Vl13                           up             up       AU 3 Interface
-Vl14                           up             up       AU 4 Interface
-Vl15                           up             up       AU 5 Interface
-Vl16                           up             up       AU 6 Interface
- --More--         Vl20                           up             up       Interface for Internet Users
-Vl25                           up             up       IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
-Vl27                           up             up       ICAN INTERNET CONNECTION
-Vl28                           up             up       VPN CONNECTION FOR ICAN EBUTEMETTA(WAN-172.16.67.252)
-Vl29                           up             up       Connection to IPNX-FBN-C2821-Router
-Vl47                           down           down     Logical Interface to GTB HQ
-Vl48                           up             up       
-Vl49                           up             up       
-Vl62                           up             up       YABA SAFMON SUBNET
-Vl76                           up             up       
-Vl77                           up             up       
-Vl78                           up             up       
-Vl96                           up             up       CONNECTION TO UBA_2821_ROUTER
-Vl131                          up             up       interface for FIDELITY vrf
-Vl132                          up             up       interface for FIDELITY vrf
-Vl171                          up             up       TE vrf for intercontinental marina
-Vl222                          up             up       Interface for FirstBank RTGS(10.163.32.22)
-Vl410                          up             up       
-YAB-PE-01#sh run int Gi1/8
-Building configuration...
-
-Current configuration : 151 bytes
-!
-interface GigabitEthernet1/8
- description SAF CONNECTION TO UBA HQ
- switchport
- switchport mode trunk
- load-interval 30
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi1/39
-Building configuration...
-
-Current configuration : 52 bytes
-!
-interface GigabitEthernet1/39
- no ip address
-end
-
-YAB-PE-01#sh run int Gi1/9
-Building configuration...
-
-Current configuration : 246 bytes
-!
-interface GigabitEthernet1/9
- description UBNT TO FIRST BANK UNILAG
- ip address 172.16.81.25 255.255.255.248 secondary
- ip address 10.62.0.129 255.255.255.252
- no ip redirects
- speed 100
- duplex full
- no cdp enable
- spanning-tree portfast
-end
-
-YAB-PE-01#sh run int Gi1/35
-Building configuration...
-
-Current configuration : 52 bytes
-!
-interface GigabitEthernet1/35
- no ip address
-end
-
-YAB-PE-01#sh run int Gi1/33
-Building configuration...
-
-Current configuration : 322 bytes
-!
-interface GigabitEthernet1/33
- description SYSTEM SUPPORT SOLUTION ENTERPRISE/ABK_CHAMBERS (172.16.90.3;62.173.44.46)
- ip address 62.173.44.45 255.255.255.252 secondary
- ip address 172.16.90.1 255.255.255.248
- no ip redirects
- service-policy input GTL_YABA_ABK_CHAMBERS
- service-policy output GTL_YABA_ABK_CHAMBERS
-end
-
-YAB-PE-01#sh run int Gi1/1
-Building configuration...
-
-Current configuration : 155 bytes
-!
-interface GigabitEthernet1/1
- description NPM PHYSICAL SC 1
- switchport
- switchport access vlan 410
- switchport mode access
- spanning-tree portfast
-end
-
-YAB-PE-01#sh run int Gi1/2
-Building configuration...
-
-Current configuration : 155 bytes
-!
-interface GigabitEthernet1/2
- description NPM PHYSICAL SC 2
- switchport
- switchport access vlan 410
- switchport mode access
- spanning-tree portfast
-end
-
-YAB-PE-01#sh run int Gi1/3
-Building configuration...
-
-Current configuration : 155 bytes
-!
-interface GigabitEthernet1/3
- description NPM PHYSICAL SC 3
- switchport
- switchport access vlan 410
- switchport mode access
- spanning-tree portfast
-end
-
-YAB-PE-01#sh run int Gi1/4
-Building configuration...
-
-Current configuration : 99 bytes
-!
-interface GigabitEthernet1/4
- switchport
- switchport access vlan 20
- switchport mode access
-end
-
-YAB-PE-01#sh run int Gi1/18.37
-Building configuration...
-
-Current configuration : 95 bytes
-!
-interface GigabitEthernet1/18.37
- description FRIGOGLASS EBUTEMETA - MGT
- no cdp enable
-end
-
-YAB-PE-01#sh run int Gi1/5
-Building configuration...
-
-Current configuration : 188 bytes
-!
-interface GigabitEthernet1/5
- description SAF PTP OCEANIC HQ
- switchport
- switchport access vlan 11
- switchport mode access
- load-interval 30
- speed 100
- duplex full
- no cdp enable
-end
-
-YAB-PE-01#sh run int Gi1/6
-Building configuration...
-
-Current configuration : 222 bytes
-!
-interface GigabitEthernet1/6
- description CONNECTION TO WAEC YABA
- ip address 172.16.64.209 255.255.255.248
- load-interval 30
- speed 100
- duplex full
- service-policy input WAEC_YABA
- service-policy output WAEC_YABA
-end
-
-YAB-PE-01#sh run int Gi1/7
-Building configuration...
-
-Current configuration : 161 bytes
-!
-interface GigabitEthernet1/7
- description P2P for RTGS / FBN Backhaul Marina
- switchport
- switchport mode trunk
- load-interval 30
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi6/2.306
-Building configuration...
-
-Current configuration : 168 bytes
-!
-interface GigabitEthernet6/2.306
- description FRIGOGLASS EBUTEMETA - DATA
- encapsulation dot1Q 306
- no cdp enable
- xconnect 62.173.34.145 306 encapsulation mpls
-end
-
-YAB-PE-01#sh run int Gi1/40
-Building configuration...
-
-Current configuration : 52 bytes
-!
-interface GigabitEthernet1/40
- no ip address
-end
-
-YAB-PE-01#sh run int Vl1
-Building configuration...
-
-Current configuration : 55 bytes
-!
-interface Vlan1
- no ip address
- no ip redirects
-end
-
-YAB-PE-01#sh run int Vl2
-Building configuration...
-
-Current configuration : 76 bytes
-!
-interface Vlan2
- ip address 10.50.2.2 255.255.255.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl76
-Building configuration...
-
-Current configuration : 106 bytes
-!
-interface Vlan76
- ip vrf forwarding DIAMOND
- ip address 10.163.32.1 255.255.254.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl77
-Building configuration...
-
-Current configuration : 106 bytes
-!
-interface Vlan77
- ip vrf forwarding DIAMOND
- ip address 10.163.40.1 255.255.254.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl78
-Building configuration...
-
-Current configuration : 107 bytes
-!
-interface Vlan78
- ip vrf forwarding DIAMOND
- ip address 192.168.23.1 255.255.255.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int GM131
-Building configuration...
-
-Current configuration : 72 bytes
-!
-interface GMPLS131
- no ip address
- no ip redirects
- no keepalive
-end
-
-YAB-PE-01#sh run int Vl25
-Building configuration...
-
-Current configuration : 473 bytes
-!
-interface Vlan25
- description IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
- ip address 172.16.71.89 255.255.255.248 secondary
- ip address 62.173.44.177 255.255.255.248 secondary
- ip address 172.16.75.185 255.255.255.252 secondary
- ip address 172.16.71.97 255.255.255.248
- no ip redirects
- service-policy input INTERNET_CLIENTS_X3
- service-policy output INTERNET_CLIENTS_X3
-end
-
-YAB-PE-01#sh run int Vl222
-Building configuration...
-
-Current configuration : 139 bytes
-!
-interface Vlan222
- description Interface for FirstBank RTGS(10.163.32.22)
- ip vrf forwarding FBNCBN
- no ip address
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl27
-Building configuration...
-
-Current configuration : 158 bytes
-!
-interface Vlan27
- description ICAN INTERNET CONNECTION
- ip address 62.173.60.97 255.255.255.248
- service-policy input ICAN
- service-policy output ICAN
-end
-
-YAB-PE-01#sh run int Vl28
-Building configuration...
-
-Current configuration : 133 bytes
-!
-interface Vlan28
- description VPN CONNECTION FOR ICAN EBUTEMETTA(WAN-172.16.67.252)
- ip address 172.16.67.249 255.255.255.248
-end
-
-YAB-PE-01#sh run int Vl29
-Building configuration...
-
-Current configuration : 210 bytes
-!
-interface Vlan29
- description Connection to IPNX-FBN-C2821-Router
- ip address 172.16.66.161 255.255.255.252
- ip ospf cost 15
- ip ospf mtu-ignore
- load-interval 30
- mpls label protocol ldp
- mpls mtu 1524
-end
-
-YAB-PE-01#sh run int Gi1/10
-Building configuration...
-
-Current configuration : 168 bytes
-!
-interface GigabitEthernet1/10
- description CONNECTION TO RMS-200
- switchport
- switchport access vlan 410
- switchport mode access
- load-interval 30
- no keepalive
-end
-
-YAB-PE-01#sh run int Vl62
-Building configuration...
-
-Current configuration : 97 bytes
-!
-interface Vlan62
- description YABA SAFMON SUBNET
- ip address 172.16.62.49 255.255.255.240
-end
-
-YAB-PE-01#sh run int Vl20
-Building configuration...
-
-Current configuration : 252 bytes
-!
-interface Vlan20
- description Interface for Internet Users
- ip address 62.173.40.129 255.255.255.192
- ip access-group Internet_Users in
- no ip redirects
- ip flow ingress
- service-policy input Internet_Users
- service-policy output Internet_Users
-end
-
-YAB-PE-01#sh run int Gi1/17
-Building configuration...
-
-Current configuration : 245 bytes
-!
-interface GigabitEthernet1/17
- description CONNECTION TO PARKWAY PROJECT_BACKUP RADIO LINK TO FTTH
- ip address 172.16.68.57 255.255.255.248
- speed 10
- duplex half
- service-policy input Policy_Parkway
- service-policy output Policy_Parkway
-end
-
-YAB-PE-01#sh run int Gi1/18
-Building configuration...
-
-Current configuration : 147 bytes
-!
-interface GigabitEthernet1/18
- description RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
- no ip address
- load-interval 30
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi1/15
-Building configuration...
-
-Current configuration : 138 bytes
-!
-interface GigabitEthernet1/15
- description FIRSTBANK HQ LINK SAFMON
- switchport
- switchport access vlan 62
- switchport mode access
-end
-
-YAB-PE-01#sh run int Gi1/16
-Building configuration...
-
-Current configuration : 140 bytes
-!
-interface GigabitEthernet1/16
- description OCEANICBANK HQ LINK SAFMON
- switchport
- switchport access vlan 62
- switchport mode access
-end
-
-YAB-PE-01#sh run int Gi1/13
-Building configuration...
-
-Current configuration : 180 bytes
-!
-interface GigabitEthernet1/13
- description UBNT TO FBN TEJUOSHO
- ip address 172.16.80.249 255.255.255.248 secondary
- ip address 10.62.0.249 255.255.255.252
- no ip redirects
-end
-
-YAB-PE-01#sh run int Gi1/18.306
-Building configuration...
-
-Current configuration : 97 bytes
-!
-interface GigabitEthernet1/18.306
- description FRIGOGLASS EBUTEMETA - DATA
- no cdp enable
-end
-
-YAB-PE-01#sh run int Gi1/14
-Building configuration...
-
-Current configuration : 138 bytes
-!
-interface GigabitEthernet1/14
- description SIDMACH-WAEC LINK SAFMON
- switchport
- switchport access vlan 62
- switchport mode access
-end
-
-YAB-PE-01#sh run int Gi1/11
-Building configuration...
-
-Current configuration : 52 bytes
-!
-interface GigabitEthernet1/11
- no ip address
-end
-
-YAB-PE-01#sh run int Gi6/2
-Building configuration...
-
-Current configuration : 173 bytes
-!
-interface GigabitEthernet6/2
- description RADWIN PTP LINK TO FRIGOGLASS EBUTEMETA
- mtu 1850
- no ip address
- load-interval 30
- media-type rj45
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi6/1
-Building configuration...
-
-Current configuration : 245 bytes
-!
-interface GigabitEthernet6/1
- description Connection to YAB-P-01
- mtu 1850
- ip address 62.173.35.217 255.255.255.252
- no ip redirects
- no ip unreachables
- no ip proxy-arp
- load-interval 30
- mpls ip
- mpls label protocol ldp
- no cdp enable
-end
-
-YAB-PE-01#sh run int Vl13
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface Vlan13
- description AU 3 Interface
- ip address 10.163.36.1 255.255.254.0
- no ip redirects
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl410
-Building configuration...
-
-Current configuration : 133 bytes
-!
-interface Vlan410
- ip address 172.28.11.5 255.255.255.248
- ip flow ingress
- ip ospf hello-interval 1
- ip ospf dead-interval 5
-end
-
-YAB-PE-01#sh run int Vl14
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface Vlan14
- description AU 4 Interface
- ip address 10.163.38.1 255.255.254.0
- no ip redirects
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl15
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface Vlan15
- description AU 5 Interface
- ip address 10.163.40.1 255.255.254.0
- no ip redirects
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl16
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface Vlan16
- description AU 6 Interface
- ip address 10.163.42.1 255.255.254.0
- no ip redirects
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl131
-Building configuration...
-
-Current configuration : 149 bytes
-!
-interface Vlan131
- description interface for FIDELITY vrf
- ip vrf forwarding FIDELITY
- ip address 192.168.43.1 255.255.255.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl132
-Building configuration...
-
-Current configuration : 148 bytes
-!
-interface Vlan132
- description interface for FIDELITY vrf
- ip vrf forwarding FIDELITY
- ip address 10.163.40.1 255.255.254.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Gi1/20
-Building configuration...
-
-Current configuration : 251 bytes
-!
-interface GigabitEthernet1/20
- description IQ SYSTEMS(MGT-172.16.71.99,62.173.44.178&179);EMPIRE_BUSINESS(62.173.57.254;172.16.71.100)&SCB,YABA(CPE-172.16.71.101;WAN-172.16.75.186)
- switchport
- switchport access vlan 25
- switchport mode access
-end
-
-YAB-PE-01#sh run int Vl171
-Building configuration...
-
-Current configuration : 160 bytes
-!
-interface Vlan171
- description TE vrf for intercontinental marina
- ip vrf forwarding INTERCONCBN
- ip address 192.168.23.1 255.255.255.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Gi1/21
-Building configuration...
-
-Current configuration : 227 bytes
-!
-interface GigabitEthernet1/21
- description UBIQUITY LINK TO UAIB, MURITALA MOHAMMED YABA (MGT-172.16.71.88/29) & (62.173.44.180&181)
- switchport
- switchport access vlan 25
- switchport mode access
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Vl96
-Building configuration...
-
-Current configuration : 156 bytes
-!
-interface Vlan96
- description CONNECTION TO UBA_2821_ROUTER
- ip address 172.16.72.125 255.255.255.252
- ip accounting output-packets
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl11
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface Vlan11
- description AU 1 Interface
- ip address 10.163.32.1 255.255.254.0
- no ip redirects
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl12
-Building configuration...
-
-Current configuration : 237 bytes
-!
-interface Vlan12
- description AU 2 Interface
- ip address 10.163.34.1 255.255.254.0
- no ip redirects
- ip accounting output-packets
- ip flow ingress
- service-policy input CORPORATE_SERVICES
- service-policy output CORPORATE_SERVICES
-end
-
-YAB-PE-01#sh run int Gi1/29
-Building configuration...
-
-Current configuration : 336 bytes
-!
-interface GigabitEthernet1/29
- description CONNECTION TO SCIB YABA(R-172.16.76.115,D-172.16.76.116)% ACCESS BANK SABO(R-172.16.74.138,D-172.16.76.118)
- ip address 172.16.74.137 255.255.255.248 secondary
- ip address 172.16.76.113 255.255.255.248
- no ip redirects
- service-policy input CLIENTS_X2
- service-policy output CLIENTS_X2
-end
-
-YAB-PE-01#sh run int Gi1/27
-Building configuration...
-
-Current configuration : 114 bytes
-!
-interface GigabitEthernet1/27
- description RADWIN TO NAFDAC YABA
- ip address 172.16.69.145 255.255.255.248
-end
-
-YAB-PE-01#sh run int Gi1/24
-Building configuration...
-
-Current configuration : 358 bytes
-!
-interface GigabitEthernet1/24
- description UBNT TO MUTUAL BENEFIT(R-172.16.81.3;Moved to Cyberspace-NNI); GTL YABA(R-172.16.81.4,D-41.184.35.186/29)
- ip address 172.16.81.1 255.255.255.248 secondary
- ip address 41.184.35.93 255.255.255.252 secondary
- ip address 41.184.35.185 255.255.255.248
- no ip redirects
- load-interval 30
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi1/25
-Building configuration...
-
-Current configuration : 236 bytes
-!
-interface GigabitEthernet1/25
- description GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
- no ip address
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi1/23
-Building configuration...
-
-Current configuration : 124 bytes
-!
-interface GigabitEthernet1/23
- description MGT-CERAGON LINK TO GBAGADA BST
- ip address 172.16.70.201 255.255.255.248
-end
-
-YAB-PE-01#sh run int Gi1/32.53
-Building configuration...
-
-Current configuration : 128 bytes
-!
-interface GigabitEthernet1/32.53
- encapsulation dot1Q 53 native
- ip address 172.16.80.233 255.255.255.248
- no cdp enable
-end
-
-YAB-PE-01#sh run int Lo0
-Building configuration...
-
-Current configuration : 69 bytes
-!
-interface Loopback0
- ip address 62.173.34.130 255.255.255.255
-end
-
-YAB-PE-01#sh run int Gi6/2.37
-Building configuration...
-
-Current configuration : 160 bytes
-!
-interface GigabitEthernet6/2.37
- description FRIGOGLASS EBUTEMETA - MGT
- encapsulation dot1Q 37
- ip address 172.16.80.161 255.255.255.248
- no cdp enable
-end
-
-YAB-PE-01#sh run int Vl47
-Building configuration...
-
-Current configuration : 135 bytes
-!
-interface Vlan47
- description Logical Interface to GTB HQ
- bandwidth 256
- no ip address
- ip mtu 1496
- ip flow ingress
- delay 30
-end
-
-YAB-PE-01#sh run int Gi1/25.50
-Building configuration...
-
-Current configuration : 472 bytes
-!
-interface GigabitEthernet1/25.50
- description GALAXY DR.AWOSIKA(10A DANNY EST. MAKOKO RD YABA)CPE-172.16.73.155;KONGA YABA(172.16.73.156)ACCESS_TRAINGING_SABO(172.16.73.157, WAN-172.16.73.158)
- encapsulation dot1Q 50 native
- ip address 62.173.56.5 255.255.255.252 secondary
- ip address 172.16.73.153 255.255.255.248
- no ip redirects
- no cdp enable
- service-policy input ACCESS_TRAINING_SABO_2MBPS_INTERNET
- service-policy output ACCESS_TRAINING_SABO_2MBPS_INTERNET
-end
-
-YAB-PE-01#sh run int Vl48
-Building configuration...
-
-Current configuration : 103 bytes
-!
-interface Vlan48
- ip vrf forwarding GTBV
- ip address 10.163.40.1 255.255.254.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Vl49
-Building configuration...
-
-Current configuration : 103 bytes
-!
-interface Vlan49
- ip vrf forwarding GTBV
- ip address 10.163.32.1 255.255.254.0
- ip flow ingress
-end
-
-YAB-PE-01#sh run int Gi1/31
-Building configuration...
-
-Current configuration : 190 bytes
-!
-interface GigabitEthernet1/31
- description UBNT TO TRACE TV DANNY ESTATE
- ip address 172.16.80.73 255.255.255.248 secondary
- ip address 62.173.56.245 255.255.255.252
- no ip redirects
-end
-
-YAB-PE-01#sh run int Gi1/32
-Building configuration...
-
-Current configuration : 76 bytes
-!
-interface GigabitEthernet1/32
- no ip address
- speed 100
- duplex full
-end
-
-YAB-PE-01#sh run int Gi1/30
-Building configuration...
-
-Current configuration : 225 bytes
-!
-interface GigabitEthernet1/30
- description SAF LINK TO ICAN EBUTEMMETA
- switchport
- switchport trunk native vlan 28
- switchport trunk allowed vlan 27,28
- switchport mode trunk
- load-interval 30
- speed 100
- duplex full
-end
-
-YAB-PE-01#
-[Connection to 62.173.34.130 closed by foreign host]
+Lo4                            up             up       
+Lekki2_BST#sh run pipe int Fa0/3/2
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#sh run pipe int Fa0/3/2bint Fa0/3/2eint Fa0/3/2gint Fa0/3/2iint Fa0/3/2nint Fa0/3/2 int Fa0/3/2
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#sh run pipe begin int Fa0/3/2Fa0/3/2 Fa0/3/2 Fa0/3/2 Fa0/3/2 
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#sh run | in xconn
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#sh run | in xconn
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#exi
+
+[Connection to 41.184.62.3 closed by foreign host]
+VI_Switch_COMMS_ROOM#41.184.62.3
+Trying 41.184.62.3 ... Open
+C
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement###
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Enter NETWORKADMIN Parameters: west
+Password: 
+
+Lekki2_BST#sh run
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#sh run
+               ^
+% Invalid input detected at '^' marker.
+
+Lekki2_BST#exi
+
+[Connection to 41.184.62.3 closed by foreign host]
+VI_Switch_COMMS_ROOM#41.184.62.7
+Trying 41.184.62.7 ... 
+% Connection timed out; remote host not responding
+
+VI_Switch_COMMS_ROOM#west
+Translating "west"
+% Unknown command or computer name, or unable to find computer address
+VI_Switch_COMMS_ROOM#41.184.62.7
+Trying 41.184.62.7 ... 
+% Connection timed out; remote host not responding
+
+VI_Switch_COMMS_ROOM#
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Username: west
+Password: 
+
+VI_Switch_COMMS_ROOM#1/.163      10.163.34.142
+Trying 10.163.34.142 ... 
+% Connection timed out; remote host not responding
+
+VI_Switch_COMMS_ROOM#west
+Translating "west"
+% Unknown command or computer name, or unable to find computer address
+VI_Switch_COMMS_ROOM#corenetwork
+Translating "corenetwork"
+% Unknown command or computer name, or unable to find computer address
+VI_Switch_COMMS_ROOM#^C  62.173.34.142
+Trying 62.173.34.142 ... Open
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+
+User Access Verification
+
+Username: wesy t
+Password: 
+
+HQ-PE-01#sh xconn all
+Legend:    XC ST=Xconnect State  S1=Segment1 State  S2=Segment2 State
+  UP=Up       DN=Down            AD=Admin Down      IA=Inactive
+  SB=Standby  HS=Hot Standby     RV=Recovering      NH=No Hardware
+
+XC ST  Segment 1                         S1 Segment 2                         S2
+------+---------------------------------+--+---------------------------------+--
+UP     ac   Gi5/0/4.962:962(Eth VLAN)    UP mpls 41.184.34.76:962             UP
+UP     ac   Gi5/0/4.1061:1061(Eth VLAN)  UP mpls 41.184.34.76:1061            UP
+UP     ac   Gi5/0/4.1074:1074(Eth VLAN)  UP mpls 41.184.34.76:1074            UP
+UP     ac   Gi5/0/4.1075:1075(Eth VLAN)  UP mpls 41.184.34.76:1075            UP
+UP     ac   Gi5/0/4.1076:1076(Eth VLAN)  UP mpls 41.184.34.76:1076            UP
+UP     ac   Gi5/0/4.1077:1077(Eth VLAN)  UP mpls 41.184.34.76:1077            UP
+UP     ac   Gi5/0/4.1079:1079(Eth VLAN)  UP mpls 41.184.34.76:1079            UP
+UP     ac   Gi5/0/4.1081:1081(Eth VLAN)  UP mpls 41.184.34.76:1081            UP
+UP     ac   Gi5/0/4.1082:1082(Eth VLAN)  UP mpls 41.184.34.76:1082            UP
+UP     ac   Gi5/0/4.1083:1083(Eth VLAN)  UP mpls 41.184.34.76:1083            UP
+UP     ac   Gi5/0/4.1084:1084(Eth VLAN)  UP mpls 41.184.34.76:1084            UP
+UP     ac   Gi5/0/1.497:497(Eth VLAN)    UP mpls 41.184.62.1:497              UP
+UP     ac   Gi5/0/2.70:70(Eth VLAN)      UP mpls 41.184.62.23:70              UP
+UP     ac   Gi5/0/1.472:472(Eth VLAN)    UP mpls 41.184.62.23:472             UP
+UP     ac   Gi5/0/2.510:510(Eth VLAN)    UP mpls 41.184.62.23:510             UP
+UP     ac   Gi5/0/2.511:511(Eth VLAN)    UP mpls 41.184.62.23:511             UP
+ --More--         UP     ac   Gi5/0/2.512:512(Eth VLAN)    UP mpls 41.184.62.23:512             UP
+UP     ac   Gi5/0/2.513:513(Eth VLAN)    UP mpls 41.184.62.23:513             UP
+UP     ac   Gi5/0/2.514:514(Eth VLAN)    UP mpls 41.184.62.23:514             UP
+UP     ac   Gi5/0/2.515:515(Eth VLAN)    UP mpls 41.184.62.23:515             UP
+UP     ac   Gi5/0/2.516:516(Eth VLAN)    UP mpls 41.184.62.23:516             UP
+UP     ac   Gi5/0/2.522:522(Eth VLAN)    UP mpls 41.184.62.23:522             UP
+UP     ac   Gi5/0/2.523:523(Eth VLAN)    UP mpls 41.184.62.23:523             UP
+UP     ac   Gi5/0/2.524:524(Eth VLAN)    UP mpls 41.184.62.23:524             UP
+UP     ac   Gi5/0/2.525:525(Eth VLAN)    UP mpls 41.184.62.23:525             UP
+UP     ac   Gi5/0/2.526:526(Eth VLAN)    UP mpls 41.184.62.23:526             UP
+UP     ac   Gi5/0/2.527:527(Eth VLAN)    UP mpls 41.184.62.23:527             UP
+UP     ac   Gi5/0/2.528:528(Eth VLAN)    UP mpls 41.184.62.23:528             UP
+UP     ac   Gi5/0/4.896:896(Eth VLAN)    UP mpls 41.184.62.23:896             UP
+DN     ac   Gi5/0/4.39:39(Eth VLAN)      UP mpls 41.184.62.24:39              DN
+DN     ac   Gi5/1/1.911:911(Eth VLAN)    UP mpls 41.184.62.24:911             DN
+UP     ac   Gi5/0/4.898:898(Eth VLAN)    UP mpls 41.184.62.26:898             UP
+DN     ac   Gi5/0/2.11:50(Eth VLAN)      UP mpls 41.184.95.129:11             DN
+DN     ac   Gi5/0/3.39:39(Eth VLAN)      UP mpls 41.184.95.129:39             DN
+UP     ac   Gi5/0/3.70:70(Eth VLAN)      UP mpls 41.184.95.129:70             UP
+UP     ac   Gi5/0/1.375:375(Eth VLAN)    UP mpls 41.184.95.129:375            UP
+UP     ac   Gi5/0/1.376:376(Eth VLAN)    UP mpls 41.184.95.129:376            UP
+UP     ac   Gi5/0/3.510:510(Eth VLAN)    UP mpls 41.184.95.129:510            UP
+UP     ac   Gi5/0/3.511:511(Eth VLAN)    UP mpls 41.184.95.129:511            UP
+ --More--         UP     ac   Gi5/0/3.512:512(Eth VLAN)    UP mpls 41.184.95.129:512            UP
+UP     ac   Gi5/0/3.513:513(Eth VLAN)    UP mpls 41.184.95.129:513            UP
+UP     ac   Gi5/0/3.514:514(Eth VLAN)    UP mpls 41.184.95.129:514            UP
+UP     ac   Gi5/0/3.515:515(Eth VLAN)    UP mpls 41.184.95.129:515            UP
+UP     ac   Gi5/0/3.522:522(Eth VLAN)    UP mpls 41.184.95.129:522            UP
+UP     ac   Gi5/0/3.523:523(Eth VLAN)    UP mpls 41.184.95.129:523            UP
+UP     ac   Gi5/0/3.524:524(Eth VLAN)    UP mpls 41.184.95.129:524            UP
+UP     ac   Gi5/0/3.525:525(Eth VLAN)    UP mpls 41.184.95.129:525            UP
+UP     ac   Gi5/0/3.526:526(Eth VLAN)    UP mpls 41.184.95.129:526            UP
+UP     ac   Gi5/0/3.527:527(Eth VLAN)    UP mpls 41.184.95.129:527            UP
+UP     ac   Gi5/0/3.528:528(Eth VLAN)    UP mpls 41.184.95.129:528            UP
+DN     ac   Gi5/0/4.70:70(Eth VLAN)      UP mpls 62.173.34.130:70             DN
+DN     ac   Gi5/0/4.510:510(Eth VLAN)    UP mpls 62.173.34.130:510            DN
+DN     ac   Gi5/0/4.511:511(Eth VLAN)    UP mpls 62.173.34.130:511            DN
+DN     ac   Gi5/0/4.512:512(Eth VLAN)    UP mpls 62.173.34.130:512            DN
+DN     ac   Gi5/0/4.513:513(Eth VLAN)    UP mpls 62.173.34.130:513            DN
+DN     ac   Gi5/0/4.514:514(Eth VLAN)    UP mpls 62.173.34.130:514            DN
+DN     ac   Gi5/0/4.515:515(Eth VLAN)    UP mpls 62.173.34.130:515            DN
+DN     ac   Gi5/0/4.522:522(Eth VLAN)    UP mpls 62.173.34.130:522            DN
+DN     ac   Gi5/0/4.523:523(Eth VLAN)    UP mpls 62.173.34.130:523            DN
+DN     ac   Gi5/0/4.524:524(Eth VLAN)    UP mpls 62.173.34.130:524            DN
+DN     ac   Gi5/0/4.525:525(Eth VLAN)    UP mpls 62.173.34.130:525            DN
+UP     ac   Gi1/40(Ethernet)             UP mpls 62.173.34.131:13             UP
+ --More--         DN     ac   Gi5/0/1.31:31(Eth VLAN)      UP mpls 62.173.34.131:31             DN
+UP     ac   Gi5/0/4.193:193(Eth VLAN)    UP mpls 62.173.34.131:193            UP
+DN     ac   Gi5/0/4.912:912(Eth VLAN)    UP mpls 62.173.34.131:912            DN
+UP     ac   Gi5/1/1.913:913(Eth VLAN)    UP mpls 62.173.34.131:913            UP
+DN     ac   Gi5/0/4.914:914(Eth VLAN)    UP mpls 62.173.34.131:914            DN
+UP     ac   Gi5/1/1.915:915(Eth VLAN)    UP mpls 62.173.34.132:915            UP
+DN     ac   Gi5/0/4.916:916(Eth VLAN)    UP mpls 62.173.34.132:916            DN
+DN     ac   Gi5/0/2.39:39(Eth VLAN)      UP mpls 62.173.34.135:39             DN
+UP     ac   Gi2/1.70:70(Eth VLAN)        UP mpls 62.173.34.136:70             UP
+UP     ac   Gi6/2.236:236(Eth VLAN)      UP mpls 62.173.34.136:236            UP
+UP     ac   Gi2/1.510:510(Eth VLAN)      UP mpls 62.173.34.136:510            UP
+UP     ac   Gi2/1.511:511(Eth VLAN)      UP mpls 62.173.34.136:511            UP
+UP     ac   Gi2/1.522:522(Eth VLAN)      UP mpls 62.173.34.136:522            UP
+DN     ac   Gi5/0/4.661:661(Eth VLAN)    UP mpls 62.173.34.141:661            DN
+UP     ac   Gi2/29(Ethernet)             UP mpls 62.173.34.145:12             UP
+UP     ac   Gi6/2.48:48(Eth VLAN)        UP mpls 62.173.34.145:25             UP
+UP     ac   Gi6/2.155:155(Eth VLAN)      UP mpls 62.173.34.145:36             UP
+UP     ac   Gi6/2.150:150(Eth VLAN)      UP mpls 62.173.34.145:39             UP
+UP     ac   Gi6/2.104:104(Eth VLAN)      UP mpls 62.173.34.145:104            UP
+UP     ac   Gi6/2.79:79(Eth VLAN)        UP mpls 62.173.34.145:136            UP
+UP     ac   Gi6/2.153:153(Eth VLAN)      UP mpls 62.173.34.145:153            UP
+UP     ac   Gi6/2.154:154(Eth VLAN)      UP mpls 62.173.34.145:180            UP
+UP     ac   Gi6/2.185:185(Eth VLAN)      UP mpls 62.173.34.145:185            UP
+ --More--         UP     ac   Gi6/2.188:188(Eth VLAN)      UP mpls 62.173.34.145:188            UP
+UP     ac   Gi5/0/4.147:147(Eth VLAN)    UP mpls 62.173.34.229:147            UP
+UP     ac   Gi5/0/4.730:730(Eth VLAN)    UP mpls 62.173.34.229:730            UP
+UP     ac   Gi5/0/4.408:408(Eth VLAN)    UP mpls 62.173.34.230:408            UP
+UP     ac   Gi5/0/4.409:409(Eth VLAN)    UP mpls 62.173.34.230:409            UP
+UP     ac   Gi5/0/4.410:410(Eth VLAN)    UP mpls 62.173.34.230:410            UP
+UP     ac   Gi5/0/4.420:420(Eth VLAN)    UP mpls 62.173.34.230:420            UP
+UP     ac   Gi5/0/4.422:422(Eth VLAN)    UP mpls 62.173.34.230:422            UP
+UP     ac   Gi5/0/4.650:650(Eth VLAN)    UP mpls 62.173.34.230:650            UP
+UP     ac   Gi5/0/4.652:652(Eth VLAN)    UP mpls 62.173.34.230:652            UP
+UP     ac   Gi5/0/4.653:653(Eth VLAN)    UP mpls 62.173.34.230:653            UP
+DN     ac   Gi5/0/4.654:654(Eth VLAN)    UP mpls 62.173.34.230:654            DN
+UP     ac   Gi5/0/4.655:655(Eth VLAN)    UP mpls 62.173.34.230:655            UP
+UP     ac   Gi5/0/4.656:656(Eth VLAN)    UP mpls 62.173.34.230:656            UP
+UP     ac   Gi5/0/4.657:657(Eth VLAN)    UP mpls 62.173.34.230:657            UP
+UP     ac   Gi5/0/4.658:658(Eth VLAN)    UP mpls 62.173.34.230:658            UP
+UP     ac   Gi5/0/4.659:659(Eth VLAN)    UP mpls 62.173.34.230:659            UP
+UP     ac   Gi5/0/4.664:664(Eth VLAN)    UP mpls 62.173.34.230:664            UP
+UP     ac   Gi5/0/4.666:666(Eth VLAN)    UP mpls 62.173.34.230:666            UP
+UP     ac   Gi5/0/4.668:668(Eth VLAN)    UP mpls 62.173.34.230:668            UP
+UP     ac   Gi5/0/4.670:670(Eth VLAN)    UP mpls 62.173.34.230:670            UP
+UP     ac   Gi5/0/4.671:671(Eth VLAN)    UP mpls 62.173.34.230:671            UP
+UP     ac   Gi5/0/4.673:673(Eth VLAN)    UP mpls 62.173.34.230:673            UP
+ --More--         UP     ac   Gi5/0/4.922:922(Eth VLAN)    UP mpls 62.173.34.230:922            UP
+UP     ac   Gi5/0/4.945:945(Eth VLAN)    UP mpls 62.173.34.230:945            UP
+UP     ac   Gi5/0/4.4000:4000(Eth VLAN)  UP mpls 62.173.34.230:4000           UP
+UP     ac   Gi5/0/4.4001:4001(Eth VLAN)  UP mpls 62.173.34.230:4001           UP
+UP     ac   Gi5/0/1.501:501(Eth VLAN)    UP mpls 62.173.35.234:501            UP
+DN     ac   Gi5/0/0.514:514(Eth VLAN)    UP mpls 62.173.35.249:514            DN
+UP     ac   Gi6/2.95:95(Eth VLAN)        UP mpls 62.173.35.251:95             UP
+UP     ac   Gi5/0/4.97:97(Eth VLAN)      UP mpls 62.173.35.251:97             UP
+UP     ac   Gi6/2.159:159(Eth VLAN)      UP mpls 62.173.35.251:159            UP
+UP     ac   Gi5/0/4.170:170(Eth VLAN)    UP mpls 62.173.35.251:170            UP
+DN     ac   Gi5/0/2.12:12(Eth VLAN)      UP mpls 62.173.35.254:12             DN
+HQ-PE-01# sh xconn all
+[Connection to 62.173.34.142 closed by foreign host]
 VI_Switch_COMMS_ROOM#

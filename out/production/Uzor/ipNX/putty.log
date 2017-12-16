@@ -1,0 +1,72 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.12.15 12:36:04 =~=~=~=~=~=~=~=~=~=~=~=
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Username: west
+Password: 
+
+VI_Switch_COMMS_ROOM#62.173.34.230
+Trying 62.173.34.230 ... Open
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement### 
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+Username: west
+Password: 
+
+MEDALLION-P-01#sh run |in     in xconn
+ xconnect 62.173.34.131 250 encapsulation mpls
+ xconnect 62.173.34.131 895 encapsulation mpls
+ xconnect 62.173.34.142 945 encapsulation mpls
+ xconnect 62.173.34.142 922 encapsulation mpls
+ xconnect 62.173.34.142 650 encapsulation mpls
+ xconnect 62.173.34.142 652 encapsulation mpls
+ xconnect 62.173.34.142 653 encapsulation mpls
+ xconnect 62.173.34.141 654 encapsulation mpls
+ xconnect 62.173.34.142 655 encapsulation mpls
+ xconnect 62.173.34.142 656 encapsulation mpls
+ xconnect 62.173.34.142 657 encapsulation mpls
+ xconnect 62.173.34.142 658 encapsulation mpls
+ xconnect 62.173.34.142 659 encapsulation mpls
+ xconnect 62.173.34.131 660 encapsulation mpls
+ xconnect 41.184.62.24 662 encapsulation mpls
+ xconnect 62.173.34.131 663 encapsulation mpls
+ xconnect 62.173.34.142 664 encapsulation mpls
+ xconnect 62.173.34.141 665 encapsulation mpls
+ xconnect 62.173.34.142 666 encapsulation mpls
+ xconnect 62.173.34.142 668 encapsulation mpls
+ xconnect 62.173.34.131 669 encapsulation mpls
+ xconnect 62.173.34.142 670 encapsulation mpls
+ xconnect 62.173.34.142 671 encapsulation mpls
+ --More--          xconnect 41.184.62.26 672 encapsulation mpls
+ xconnect 62.173.34.142 673 encapsulation mpls
+ xconnect 62.173.34.142 408 encapsulation mpls
+ xconnect 62.173.34.142 409 encapsulation mpls
+ xconnect 62.173.34.142 410 encapsulation mpls
+ xconnect 62.173.34.141 433 encapsulation mpls
+ xconnect 62.173.34.141 511 encapsulation mpls
+ xconnect 62.173.34.141 521 encapsulation mpls
+ xconnect 62.173.34.142 4000 encapsulation mpls
+ xconnect 62.173.34.142 4001 encapsulation mpls
+ xconnect 62.173.34.142 420 encapsulation mpls
+ xconnect 62.173.34.142 422 encapsulation mpls
+ xconnect 62.173.35.251 108 encapsulation mpls
+MEDALLION-P-01#  exit
+
+[Connection to 62.173.34.230 closed by foreign host]
+VI_Switch_COMMS_ROOM#exi
