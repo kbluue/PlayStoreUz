@@ -1,5 +1,7 @@
 package ipNX;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
@@ -11,6 +13,11 @@ import java.util.Scanner;
 public class RouterRun {
 
     public static void main(String[] args){
+        try {
+            new RouterRun().readSource(new Scanner(new File("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\putty.log")));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public static String lineTrim(String line){
@@ -27,13 +34,31 @@ public class RouterRun {
         ArrayList<Interface> interfaces = new ArrayList<>();
 
         while (src.hasNextLine()){
-            String[] line = lineTrim(src.nextLine()).split(" ");
+            String next = src.nextLine();
+            if (next.equals("")) continue;
+            String[] line = lineTrim(next).split(" ", 4);
 
             if (interfaceNext){
                 //add interface to arraylist
+                interfaces.add(new Interface(line));
             }
 
-            if (line[0] == "Interface") interfaceNext = true;
+            if (Objects.equals(line[0], "Interface")) interfaceNext = true;
+            if (line[0].contains("#") && !line[0].contains("##")){
+                String location = line[0].split("#")[0];
+
+                if (interfaceNext) //add location to interfaces at once
+                interfaceNext = false;
+
+//                try {
+//                    String newCommand = line[1];
+//                } catch (ArrayIndexOutOfBoundsException e){
+//                    return;
+//                }
+            }
+        }
+        for (Interface i : interfaces) {
+            System.out.println(i.toString());
         }
     }
 }

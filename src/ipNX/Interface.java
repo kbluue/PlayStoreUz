@@ -9,20 +9,16 @@ public class Interface {
     boolean xconnect;
     int runError;
 
-    final int INVALID_INPUT = 9999;
-    final int AUTHORIZATION = 8888;
+    final static int INVALID_INPUT = 9999;
+    final static int AUTHORIZATION = 8888;
 
-    public Interface(String name, String status, String protocol, String description) {
-        this.name = name;
-        this.status = status;
-        this.protocol = protocol;
-        this.description = description;
-        xconnect = false;
-    }
-
-    public Interface(String[] line){
+    public Interface(String... line){
         if (line.length < 4) return;
-        new Interface(line[0], line[1], line[2], line[3]);
+        this.name = line[0];
+        this.status = line[1];
+        this.protocol = line[2];
+        this.description = line[3];
+        xconnect = false;
     }
 
     public void isXConfig(){
@@ -47,6 +43,6 @@ public class Interface {
 
     @Override
     public String toString() {
-        return String.format("");
+        return String.format("%-15s%-10s%-10s%-60s", name, status, protocol, description);
     }
 }
