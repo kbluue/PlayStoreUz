@@ -305,4 +305,6 @@ UP     ac   Gi5/0/4.97:97(Eth VLAN)      UP mpls 62.173.35.251:97             UP
 UP     ac   Gi6/2.159:159(Eth VLAN)      UP mpls 62.173.35.251:159            UP
 UP     ac   Gi5/0/4.170:170(Eth VLAN)    UP mpls 62.173.35.251:170            UP
 DN     ac   Gi5/0/2.12:12(Eth VLAN)      UP mpls 62.173.35.254:12             DN
-HQ-PE-01# 
+HQ-PE-01# sh xconn all
+[Connection to 62.173.34.142 closed by foreign host]
+VI_Switch_COMMS_ROOM#

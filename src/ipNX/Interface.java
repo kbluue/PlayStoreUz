@@ -20,6 +20,11 @@ public class Interface {
         xconnect = false;
     }
 
+    public Interface(String[] line){
+        if (line.length < 4) return;
+        new Interface(line[0], line[1], line[2], line[3]);
+    }
+
     public void isXConfig(){
         xconnect = true;
     }
