@@ -1,0 +1,110 @@
+LOCATION NAME 			IP ADDRESS
+
+10.163.4.2
+
+Abuja 	Abuja_P_01# 		41.184.56.117
+Abuja 	Amazon_BTS# 		41.184.95.134
+Abuja 	Hotoro_BTS# 		172.29.67.5
+Abuja 	IHS_ABJ_003# 		41.184.95.135
+Abuja 	kenazplaza_BTS# 	41.184.95.129
+Abuja 	PE_MillPark# 		62.173.34.136
+Abuja 	PE_OldCBN# 		41.184.95.130
+Abuja 	Udo-udoma_BTS# 		41.184.95.133
+Abuja 	Utako_BTS# 		41.184.95.132
+
+Ibadan 	Dugbe_Core_router# 	62.173.35.250
+Ibadan 	ODOONA_ELEWE# 		41.184.127.133
+Ibadan 	PE_AGODI# 		41.184.127.130
+
+Kano 	PE_KANO# 		41.184.111.129
+Kano 	SABONGARI_BTS# 		41.184.110.10
+Kano	Sharada			41.184.110.2
+Kano	Hotoro_BTS#		172.29.67.5
+
+Lagos 	ABULE-EGBA_BST# 	41.184.62.8
+Lagos 	AGEGE_BST# 		41.184.62.2
+Lagos 	Ajah_BST# 		41.184.62.4
+Lagos 	APAPA_II_BST# 		62.173.35.229
+Lagos	BRAS-03#		41.184.62.50 
+Lagos 	BROADBASE-P-01# 	62.173.34.141
+Lagos 	DC-Access-Router# 	62.173.34.147
+Lagos 	Dolphin_BST# 		41.184.62.7
+Lagos	ERICMOORE-PE#		41.184.62.24
+Lagos 	HQ_ISG_2# 		62.173.35.244
+Lagos 	HQ_P-ROUTER# 		62.173.35.101
+Lagos 	HQ-BRAS-01# 		62.173.35.246
+Lagos 	HQ-PE_02# 		62.173.35.251
+Lagos 	HQ-PE-01# 		62.173.34.142
+Lagos 	IKORODU_BST# 		62.173.35.22 41.184.62.13
+Lagos 	ILUPEJU_BST# 		41.184.62.6
+Lagos	IPNX_RACKCENTRE#	41.184.62.26
+Lagos 	KEFFI_BST# 		41.184.62.18
+Lagos 	Lekki2_BST# 		41.184.62.3
+Lagos 	MARINA-PE-01# 		62.173.34.132
+Lagos	MARINA-PE-02		41.184.62.9
+Lagos	MEDALLION-P-01#		62.173.34.230
+Lagos 	NEW_FESTAC_BST# 	41.184.62.17
+Lagos 	NEW_LEKKI_ROUTER# 	62.173.35.248
+Lagos 	OBA_AKRAN_BST# 		41.184.62.10
+Lagos 	OBALENDE_BST# 		41.184.62.21 41.184.62.25
+Lagos 	OJODU_BST# 		41.184.62.1
+Lagos	ONIRU_BST#		62.173.35.252
+Lagos 	Oregun_BST# 		41.184.62.14
+Lagos 	PE_GBAGADA# 		62.173.35.249
+Lagos 	PE_IKEJA_02# 		41.184.62.19
+Lagos 	PE_IKEJA# 		62.173.34.131 10.133.0.10
+Lagos 	PE_ILASA# 		62.173.34.146
+Lagos	PE_MEDDALLION#		62.173.34.145
+Lagos 	PE_ORILE# 		62.173.35.228
+Lagos 	PE_VI# 			62.173.34.129
+Lagos	Shangisha_BST#		41.184.62.11
+Lagos	SURULERE_BST#		62.173.34.94
+Lagos 	YAB-PE-01# 		62.173.34.130
+
+PH	ELEKAHIA_BTS# 		172.18.24.33 41.184.78.18
+PH	PE_ELITOR# 		172.18.24.57 41.184.78.22
+PH	P_PHC# 			41.184.78.9, 41.184.62.22
+PH	PE_PHC-01# 		41.184.62.23
+PH	PH_NTA# 		172.29.3.5
+PH	PH_PresidentialBST# 	41.184.79.129 10.163.194.1
+PH	WOJI_BTS#		41.184.127.131
+PH	WONODI_BST# 		172.29.4.129, 41.184.78.14
+
+
+Bank	FIDELITY_AGGR_ROUTER#	10.61.24.249
+
+--------------------------------------------------------------
+
+SSH into “sector ip” from putty, e.g 172.28.0.8
+
+Username: admin
+
+Password: admin
+
+show cpeconn 330000010EE5EFE8 -- ip add of the soma
+
+show somaportif 330000010EE5EFE8 -- info about the status of the port
+
+show clientip 330000010EE5EFE8 -- info abot the wan ip add, Also known as clientip
+
+tcpdump -i air | grep [IP] -- to ping the IP
+
+---------------------------------------------------------------
+
+62.173.33.254:8808/cgi-bin/regsrc?a=1XXXXXXX
+
+http://62.173.33.254:8808/cgi-bin/vcdrs.cgi?t=720&r=60&m=300&ab=1XXXXXXX
+
+--------------------------------------------------------------
+
+show mpls l2transport vc
+
+------------------------------------------------------------------
+
+5/12/2017 12:01:00 AM  
+5/12/2017 11:59:00 PM
+
+----------------------------------------------------------------
+
+
+

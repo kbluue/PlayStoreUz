@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="700dfd25-ca4a-4c3d-8d6e-45e3fc92c939" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ipNX/Interface.java" afterPath="$PROJECT_DIR$/src/ipNX/Interface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ipNX/RouterRun.java" afterPath="$PROJECT_DIR$/src/ipNX/RouterRun.java" />
     </list>
     <ignored path="Uzor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +37,6 @@
                 <element signature="docComment;class#HKR#0" expanded="false" />
                 <element signature="class#inner#0;class#HKR#0" expanded="false" />
                 <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-                <element signature="e#201#202#0" expanded="false" />
-                <element signature="e#275#276#0" expanded="false" />
-                <element signature="e#314#315#0" expanded="false" />
-                <element signature="e#363#364#0" expanded="false" />
                 <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
                 <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
                 <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -50,8 +44,6 @@
                 <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
                 <element signature="class#Node#0;class#HKR#0" expanded="false" />
                 <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-                <element signature="e#3169#3170#0" expanded="false" />
-                <element signature="e#3254#3255#0" expanded="false" />
                 <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
                 <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
                 <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -59,8 +51,6 @@
                 <element signature="class#Player#0;class#HKR#0" expanded="false" />
                 <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
                 <element signature="method#fill#0;class#HKR#0" expanded="false" />
-                <element signature="e#14221#14222#0" expanded="false" />
-                <element signature="e#14296#14297#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,7 +61,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-              <folding />
+              <folding>
+                <element signature="e#0#10204#0" expanded="false" />
+                <element signature="e#621#622#0" expanded="false" />
+                <element signature="e#704#705#0" expanded="false" />
+                <element signature="e#1410#1411#0" expanded="false" />
+                <element signature="e#1471#1472#0" expanded="false" />
+                <element signature="e#2786#2787#0" expanded="false" />
+                <element signature="e#2837#2838#0" expanded="false" />
+                <element signature="e#3914#3915#0" expanded="false" />
+                <element signature="e#3960#3961#0" expanded="false" />
+                <element signature="e#4400#4401#0" expanded="false" />
+                <element signature="e#4440#4441#0" expanded="false" />
+                <element signature="e#5014#5015#0" expanded="false" />
+                <element signature="e#5077#5078#0" expanded="false" />
+                <element signature="e#5960#5961#0" expanded="false" />
+                <element signature="e#6014#6015#0" expanded="false" />
+                <element signature="e#8380#8381#0" expanded="false" />
+                <element signature="e#8414#8415#0" expanded="false" />
+                <element signature="e#8972#8973#0" expanded="false" />
+                <element signature="e#9006#9007#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +99,31 @@
       <file leaf-file-name="RouterRun.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ipNX/RouterRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40461215">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5390244">
+              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/src/ipNX/Interface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding>
                 <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -200,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,8 +301,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -336,6 +365,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1075,38 +1105,40 @@
       <workItem from="1513195776648" duration="32659000" />
       <workItem from="1513327183478" duration="9621000" />
       <workItem from="1513379803072" duration="5626000" />
-      <workItem from="1513413332408" duration="4505000" />
+      <workItem from="1513413332408" duration="5387000" />
+      <workItem from="1513450428263" duration="3246000" />
+      <workItem from="1513603546833" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228152000" />
+    <option name="totallyTimeSpent" value="234142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25074184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25074184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1137,10 +1169,6 @@
             <element signature="docComment;class#HKR#0" expanded="false" />
             <element signature="class#inner#0;class#HKR#0" expanded="false" />
             <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
             <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
             <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
             <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -1148,8 +1176,6 @@
             <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
             <element signature="class#Node#0;class#HKR#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-            <element signature="e#3169#3170#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
             <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
             <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
             <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -1157,8 +1183,6 @@
             <element signature="class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#fill#0;class#HKR#0" expanded="false" />
-            <element signature="e#14221#14222#0" expanded="false" />
-            <element signature="e#14296#14297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1167,7 +1191,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#0#10204#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1471#1472#0" expanded="false" />
+            <element signature="e#2786#2787#0" expanded="false" />
+            <element signature="e#2837#2838#0" expanded="false" />
+            <element signature="e#3914#3915#0" expanded="false" />
+            <element signature="e#3960#3961#0" expanded="false" />
+            <element signature="e#4400#4401#0" expanded="false" />
+            <element signature="e#4440#4441#0" expanded="false" />
+            <element signature="e#5014#5015#0" expanded="false" />
+            <element signature="e#5077#5078#0" expanded="false" />
+            <element signature="e#5960#5961#0" expanded="false" />
+            <element signature="e#6014#6015#0" expanded="false" />
+            <element signature="e#8380#8381#0" expanded="false" />
+            <element signature="e#8414#8415#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+            <element signature="e#9006#9007#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,10 +1282,6 @@
             <element signature="docComment;class#HKR#0" expanded="false" />
             <element signature="class#inner#0;class#HKR#0" expanded="false" />
             <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
             <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
             <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
             <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -1249,8 +1289,6 @@
             <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
             <element signature="class#Node#0;class#HKR#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-            <element signature="e#3169#3170#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
             <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
             <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
             <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -1258,8 +1296,6 @@
             <element signature="class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#fill#0;class#HKR#0" expanded="false" />
-            <element signature="e#14221#14222#0" expanded="false" />
-            <element signature="e#14296#14297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1300,10 +1336,6 @@
             <element signature="docComment;class#HKR#0" expanded="false" />
             <element signature="class#inner#0;class#HKR#0" expanded="false" />
             <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
             <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
             <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
             <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -1311,8 +1343,6 @@
             <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
             <element signature="class#Node#0;class#HKR#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-            <element signature="e#3169#3170#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
             <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
             <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
             <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -1320,8 +1350,6 @@
             <element signature="class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#fill#0;class#HKR#0" expanded="false" />
-            <element signature="e#14221#14222#0" expanded="false" />
-            <element signature="e#14296#14297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,10 +1390,6 @@
             <element signature="docComment;class#HKR#0" expanded="false" />
             <element signature="class#inner#0;class#HKR#0" expanded="false" />
             <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
             <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
             <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
             <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -1373,8 +1397,6 @@
             <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
             <element signature="class#Node#0;class#HKR#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-            <element signature="e#3169#3170#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
             <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
             <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
             <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -1382,8 +1404,6 @@
             <element signature="class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#fill#0;class#HKR#0" expanded="false" />
-            <element signature="e#14221#14222#0" expanded="false" />
-            <element signature="e#14296#14297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1479,13 +1499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1437" column="0" selection-start-line="1437" selection-start-column="0" selection-end-line="1437" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03935185">
@@ -1564,10 +1577,6 @@
             <element signature="docComment;class#HKR#0" expanded="false" />
             <element signature="class#inner#0;class#HKR#0" expanded="false" />
             <element signature="class#Private#0;class#inner#0;class#HKR#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
             <element signature="method#multiIn#0;class#HKR#0" expanded="false" />
             <element signature="method#numberNeeded#0;class#HKR#0" expanded="false" />
             <element signature="method#arrayContain#0;class#HKR#0" expanded="false" />
@@ -1575,8 +1584,6 @@
             <element signature="method#isBalanced#0;class#HKR#0" expanded="false" />
             <element signature="class#Node#0;class#HKR#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HKR#0" expanded="false" />
-            <element signature="e#3169#3170#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
             <element signature="method#checkRoot#0;class#HKR#0" expanded="false" />
             <element signature="method#runningMedian#0;class#HKR#0" expanded="false" />
             <element signature="method#insert#0;class#HKR#0" expanded="false" />
@@ -1584,8 +1591,6 @@
             <element signature="class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#Player#0;class#Player#0;class#HKR#0" expanded="false" />
             <element signature="method#fill#0;class#HKR#0" expanded="false" />
-            <element signature="e#14221#14222#0" expanded="false" />
-            <element signature="e#14296#14297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1594,7 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34210527">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,7 +1606,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#0#10204#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1471#1472#0" expanded="false" />
+            <element signature="e#2786#2787#0" expanded="false" />
+            <element signature="e#2837#2838#0" expanded="false" />
+            <element signature="e#3914#3915#0" expanded="false" />
+            <element signature="e#3960#3961#0" expanded="false" />
+            <element signature="e#4400#4401#0" expanded="false" />
+            <element signature="e#4440#4441#0" expanded="false" />
+            <element signature="e#5014#5015#0" expanded="false" />
+            <element signature="e#5077#5078#0" expanded="false" />
+            <element signature="e#5960#5961#0" expanded="false" />
+            <element signature="e#6014#6015#0" expanded="false" />
+            <element signature="e#8380#8381#0" expanded="false" />
+            <element signature="e#8414#8415#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+            <element signature="e#9006#9007#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,25 +1638,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ipNX/RouterRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5390244">
+          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ipNX/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding>
             <element signature="e#537#538#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
             <element signature="e#943#944#0" expanded="true" />
             <element signature="e#1040#1041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ipNX/RouterRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40461215">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

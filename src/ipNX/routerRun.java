@@ -44,19 +44,20 @@ public class RouterRun {
             }
 
             if (Objects.equals(line[0], "Interface")) interfaceNext = true;
+
             if (line[0].contains("#") && !line[0].contains("##")){
                 String location = line[0].split("#")[0];
 
                 if (interfaceNext) //add location to interfaces at once
                 interfaceNext = false;
 
-//                try {
-//                    String newCommand = line[1];
-//                } catch (ArrayIndexOutOfBoundsException e){
-//                    return;
-//                }
+                if (line.length == 1) return;
             }
+
+            // read for "sh run int command"
+            if (line[1].contains("run") || line[2].contains("run")) ;
         }
+
         for (Interface i : interfaces) {
             System.out.println(i.toString());
         }
