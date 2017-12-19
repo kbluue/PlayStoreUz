@@ -2,51 +2,107 @@ package ipNX;
 
 import org.apache.commons.net.telnet.TelnetClient;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.io.InputStream;
+import java.io.PrintStream;
+import java.util.Scanner;
 
 /**
  * Created by _kbluue_ on 12/19/2017.
  */
 public class AutomatedTelnetClient {
 
-    String host, userid, password, prefix, recentCommand;
-    int port;
-    Logger logger;
-    TelnetClient client = new TelnetClient();
+    private TelnetClient telnet = new TelnetClient();
+    private InputStream in;
+    private PrintStream out;
+    private String prompt = "#";
 
-    public void setAuthenticationInfo(String hostname, String username,     String password) {
-        this.host = hostname; // $a1
-        this.userid = username; // $a1
-        this.password = password; // $a1
-        this.logger = Logger.getLogger("TelnetConnection");
-        this.logger.setLevel(Level.OFF);
-        this.prefix = "AutomatedErrorInjector";
-        this.recentCommand = ""; // $a1
-        this.port = 23; // $a1
-        logger.finest("setting authentication info completed for host=" + host + " port=" + port);
-    }
-    public int runCommand(String command) throws Exception {
-
+    public AutomatedTelnetClient(String server, String user, String password) {
         try {
+            // Connect to the specified server
+            telnet.connect(server, 23);
 
-            client.connect(host, logger, userid, password, port); // $a1
+            // Get input and output stream references
+            in = telnet.getInputStream();
+            out = new PrintStream(telnet.getOutputStream());
 
-        } catch (Throwable e) {
+            // Log the user on
+            readUntil("Username: ");
+            write(user);
+            readUntil("Password: ");
+            write(password);
+            sendCommand("terminal length 0");
 
-            throw new Exception("Error connecting to:" + host);
-
+            // Advance to a prompt
+            readUntil(prompt);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
-        command = command + " ;echo :CommandRC:$?:CommandRC:";
-
-        String response = sndCmd(command);
     }
 
-
-
-
-
-
-
+    public String readUntil(String pattern) {
+        try {
+            char lastChar = pattern.charAt(pattern.length() - 1);
+            StringBuffer sb = new StringBuffer();
+            char ch = (char) in.read();
+            while (true) {
+                System.out.print(ch);
+                sb.append(ch);
+                if (ch == lastChar) {
+                    if (sb.toString().endsWith(pattern)) {
+                        return sb.toString();
+                    }
+                }
+                ch = (char) in.read();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
+
+    public void write(String value) {
+        try {
+            out.println(value);
+            out.flush();
+            System.out.println(value);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public String sendCommand(String command) {
+        try {
+            write(command);
+            return readUntil(prompt);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void disconnect() {
+        try {
+            telnet.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            AutomatedTelnetClient telnet = new AutomatedTelnetClient(
+                    "10.163.4.2", "west", "corenetwork");
+//            System.out.println("Got Connection...");
+//            telnet.sendCommand("ps -ef ");
+//            System.out.println("sh int");
+            String src = telnet.sendCommand("sh int desc");
+            new RouterRun().readSource(new Scanner(src));
+//            System.out.println("sh int desc");
+            telnet.disconnect();
+            System.out.println("DONE");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+}
