@@ -48,14 +48,19 @@ public class RouterRun {
             if (line[0].contains("#") && !line[0].contains("##")){
                 String location = line[0].split("#")[0];
 
-                if (interfaceNext) //add location to interfaces at once
+                if (interfaceNext) {
+                    Interface.setMapLocation(interfaces, location);
+                    Interface.printMap(interfaces);
+                    Interface.generateRunCommand(interfaces);
+                    return;
+                }
                 interfaceNext = false;
 
                 if (line.length == 1) return;
             }
 
             // read for "sh run int command"
-            if (line[1].contains("run") || line[2].contains("run")) ;
+//            if (line[1].contains("run") || line[2].contains("run")) ;
         }
 
         for (Interface i : interfaces) {

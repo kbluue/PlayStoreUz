@@ -3,6 +3,7 @@ package ipNX;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * Created by _kbluue_ on 12/16/2017.
@@ -25,23 +26,23 @@ public class Interface {
         xconnect = false;
     }
 
-    public static void printMap(Interface[] map){
-        System.out.println((map[0].location == null) ? "Location not Set" : map[0].location);
+    public static void printMap(ArrayList<Interface> map){
+        System.out.println((map.get(0).location == null) ? "Location not Set" : map.get(0).location);
         System.out.printf("%-15s%-10s%-10s%-60s\n", "Interface", "Status", "Protocol", "Description");
         for (Interface anInterface : map) System.out.println(anInterface.toString());
     }
 
-    public static void setMapLocation(Interface[] map,String location){
+    public static void setMapLocation(ArrayList<Interface> map, String location){
         for (Interface anInterface : map) anInterface.setLocation(location);
     }
 
-    public static String getRunCommand(Interface[] map){
+    public static String getRunCommand(ArrayList<Interface> map){
         String out = "";
         for (Interface anInterface : map) out += ("sh run int " + anInterface.name + "\n");
         return out;
     }
 
-    public static void generateRunCommand(Interface[] map,String outFilePath){
+    public static void generateRunCommand(ArrayList<Interface> map,String outFilePath){
         File batchOut = new File(outFilePath);
         StringBuilder builder = new StringBuilder(getRunCommand(map));
         try {
@@ -53,7 +54,7 @@ public class Interface {
         }
     }
 
-    public static void generateRunCommand(Interface[] map){
+    public static void generateRunCommand(ArrayList<Interface> map){
         generateRunCommand(map, "C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\batchOut.la2");
     }
 
