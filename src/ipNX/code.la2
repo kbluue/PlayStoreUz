@@ -1,0 +1,307 @@
+
+##############################################################################
+###  UNAUTHORISED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.             ###
+###  You must have explicit permission to access or configure this device. ###
+###  All activities performed on this device are logged, and violations    ###
+###  of this policy may result in disciplinary action and/or prosecution.  ###
+###  Illegal activities will be reported to the appropriate law enforcement###
+###  agencies.                                                             ###
+###  There is no right to privacy on this device.                          ###
+##############################################################################
+
+
+User Access Verification
+
+Username: west
+Password:
+
+VI_Switch_COMMS_ROOM#sh int desc
+Interface                      Status         Protocol Description
+Vl1                            up             up
+Vl13                           up             up
+Vl14                           up             up
+Gi0/1                          up             up       Connection to Switch 4 (NEW DC)
+Gi0/2                          down           down     InterswitchNG (NEW)
+Gi0/3                          down           down     GTB E3 WAN LINK
+Gi0/4                          down           down     InterswitchNG
+Gi0/5                          down           down     CONNECTION TO INTERWITCH CME2
+Gi0/6                          down           down     CRG LINK TO TOTAL_DATA
+Gi0/7                          up             up       Interswitch NIBSS Connection
+Gi0/8                          down           down     TEST PORT
+Gi0/9                          up             up       FIRS AGIDINGBI TO INTERSWITCH
+Gi0/10                         down           down
+Gi0/11                         up             up       Connection to Hygeia HMO Rack @ Datacentre
+Gi0/12                         down           down     SAF E3 Link to Access Bank Ligali Ayorinde DC
+Gi0/13                         down           down     DIAMOND BANK MGNT
+Gi0/14                         down           down     CONNECTION TO IPNX(VI_Switch_04) - ISW NEW DATA CENTER: 10.163.4.7
+Gi0/15                         down           down     DIAMOND E3 WAN LINK
+Gi0/16                         down           down     Connection to VI_Switch 3
+Gi0/17                         down           down     VI_AU3
+Gi0/18                         down           down     PAYCOM VI (TELNET)
+Gi0/19                         down           down     test port
+Gi0/20                         down           down     CRG LINK TO TOTAL_MGT
+Gi0/21                         down           down     VI_AU5
+Gi0/22                         up             up       InterswitchNG_HA
+Gi0/23                         down           down     VI_AU6
+Gi0/24                         down           down     Connection to 4Motion_BTS
+Gi0/25                         down           down     Fibre Connection to Interswitch DC2 (SW MGNT: 10.163.4.6)
+Gi0/26                         down           down
+Gi0/27                         down           down
+Gi0/28                         down           down
+VI_Switch_COMMS_ROOM#41.184.62.14
+Trying 41.184.62.14 ... Open
+
+
+User Access Verification
+
+Username: west
+Password:
+
+Oregun_BST#sh int des
+Interface                      Status         Protocol Description
+Fa0/0                          up             up       SAF E3 Link to Ikeja
+Fa0/1                          up             up       CONNECTION TO KOGA ENTERTAINMENT,OREGUN (SU-172.16.73.187;DA-62.173.60.49)&PARALLEXMFB-OREGUN (SU-172.16.73.188;APPZONE-10.62.6.94;INTSWT-172.16.79.54)
+Fa0/0/0                        up             up       CONNECTION_TO_SC-1
+Fa0/0/1                        up             down     CONNECTION_TO_SC-3
+Fa0/0/2                        up             up       CRITICAL_RESCUE_ADENIYI_JONES
+Fa0/0/3                        up             down     STACKING PORT
+Fa0/1/0                        up             down     STACKING PORT
+Fa0/1/1                        up             up       CONNECTION_TO_RMS200
+Fa0/1/2                        up             up       SAF CFM TO FOREVER LIVING PRODUCT IKEJA
+Fa0/1/3                        up             up       UBNT TO CMC_ASTRA ZENICA-OPEBI
+Vl1                            up             up
+Vl5                            up             up       UBNT TO CMC_ASTRA ZENICA-OPEBI - MGT
+Vl10                           up             up       CONNECTION_TO_RMS200
+Vl11                           up             down     REDINGTON ALLEN RADIO BACKUP
+Vl12                           up             up       CRITICAL_RESCUE_ADENIYI_JONES
+Vl30                           up             up       SAF CFM TO FOREVER LIVING PRODUCT IKEJA
+Vl99                           up             up       UBNT TO CMC_ASTRA ZENICA-OPEBI_MPLS L3
+Vl410                          up             up
+Lo0                            up             up
+Oregun_BST#sh run int Fa0/0/0
+Building configuration...
+
+Current configuration : 113 bytes
+!
+interface FastEthernet0/0/0
+ description CONNECTION_TO_SC-1
+ switchport access vlan 410
+ load-interval 30
+end
+
+Oregun_BST#sh run int Fa0/0/1
+Building configuration...
+
+Current configuration : 123 bytes
+!
+interface FastEthernet0/0/1
+ description CONNECTION_TO_SC-3
+ switchport access vlan 12
+ load-interval 30
+ speed 100
+end
+
+Oregun_BST#sh run int Fa0/1/0
+Building configuration...
+
+Current configuration : 143 bytes
+!
+interface FastEthernet0/1/0
+ description STACKING PORT
+ switchport stacking-partner interface FastEthernet0/0/3
+ spanning-tree portfast
+end
+
+Oregun_BST#sh run int Lo0
+Building configuration...
+
+Current configuration : 68 bytes
+!
+interface Loopback0
+ ip address 41.184.62.14 255.255.255.255
+end
+
+Oregun_BST#sh run int Fa0/0/2
+Building configuration...
+
+Current configuration : 147 bytes
+!
+interface FastEthernet0/0/2
+ description CRITICAL_RESCUE_ADENIYI_JONES
+ switchport access vlan 12
+ load-interval 30
+ duplex full
+ speed 100
+end
+
+Oregun_BST#sh run int Fa0/1/1
+Building configuration...
+
+Current configuration : 96 bytes
+!
+interface FastEthernet0/1/1
+ description CONNECTION_TO_RMS200
+ switchport access vlan 10
+end
+
+Oregun_BST#sh run int Fa0/0/3
+Building configuration...
+
+Current configuration : 143 bytes
+!
+interface FastEthernet0/0/3
+ description STACKING PORT
+ switchport stacking-partner interface FastEthernet0/1/0
+ spanning-tree portfast
+end
+
+Oregun_BST#sh run int Fa0/1/2
+Building configuration...
+
+Current configuration : 115 bytes
+!
+interface FastEthernet0/1/2
+ description SAF CFM TO FOREVER LIVING PRODUCT IKEJA
+ switchport access vlan 30
+end
+
+Oregun_BST#sh run int Fa0/1/3
+Building configuration...
+
+Current configuration : 184 bytes
+!
+interface FastEthernet0/1/3
+ description UBNT TO CMC_ASTRA ZENICA-OPEBI
+ switchport trunk native vlan 5
+ switchport trunk allowed vlan 1,2,5,99,1002-1005
+ switchport mode trunk
+end
+
+Oregun_BST#sh run int Fa0/1
+Building configuration...
+
+Current configuration : 615 bytes
+!
+interface FastEthernet0/1
+ description CONNECTION TO KOGA ENTERTAINMENT,OREGUN (SU-172.16.73.187;DA-62.173.60.49)&PARALLEXMFB-OREGUN (SU-172.16.73.188;APPZONE-10.62.6.94;INTSWT-172.16.79.54)
+ ip address 10.62.6.93 255.255.255.252 secondary
+ ip address 172.16.79.53 255.255.255.252 secondary
+ ip address 172.16.73.185 255.255.255.248
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ rate-limit input access-group 100 1024000 32000 32000 conform-action transmit exceed-action drop
+ rate-limit output access-group 100 1024000 32000 32000 conform-action transmit exceed-action drop
+ duplex half
+ speed 100
+end
+
+Oregun_BST#sh run int Vl410
+Building configuration...
+
+Current configuration : 116 bytes
+!
+interface Vlan410
+ ip address 172.28.26.5 255.255.255.248
+ ip ospf hello-interval 1
+ ip ospf dead-interval 5
+end
+
+Oregun_BST#sh run int Fa0/0
+Building configuration...
+
+Current configuration : 235 bytes
+!
+interface FastEthernet0/0
+ description SAF E3 Link to Ikeja
+ ip address 62.173.35.78 255.255.255.252
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ duplex full
+ speed 100
+ mpls mtu 1524
+ mpls label protocol ldp
+ mpls ip
+end
+
+Oregun_BST#sh run int Vl1
+Building configuration...
+
+Current configuration : 107 bytes
+!
+interface Vlan1
+ no ip address
+ ip ospf hello-interval 1
+ ip ospf dead-interval 5
+ load-interval 30
+end
+
+Oregun_BST#sh run int Vl30
+Building configuration...
+
+Current configuration : 119 bytes
+!
+interface Vlan30
+ description SAF CFM TO FOREVER LIVING PRODUCT IKEJA
+ ip address 62.173.42.221 255.255.255.252
+end
+
+Oregun_BST#sh run int Vl10
+Building configuration...
+
+Current configuration : 148 bytes
+!
+interface Vlan10
+ description CONNECTION_TO_RMS200
+ ip address 10.62.10.1 255.255.255.252
+ ip ospf hello-interval 1
+ ip ospf dead-interval 5
+end
+
+Oregun_BST#sh run int Vl5
+Building configuration...
+
+Current configuration : 115 bytes
+!
+interface Vlan5
+ description UBNT TO CMC_ASTRA ZENICA-OPEBI - MGT
+ ip address 172.16.68.193 255.255.255.248
+end
+
+Oregun_BST#sh run int Vl11
+Building configuration...
+
+Current configuration : 108 bytes
+!
+interface Vlan11
+ description REDINGTON ALLEN RADIO BACKUP
+ ip address 172.16.79.241 255.255.255.248
+end
+
+Oregun_BST#sh run int Vl99
+Building configuration...
+
+Current configuration : 157 bytes
+!
+interface Vlan99
+ description UBNT TO CMC_ASTRA ZENICA-OPEBI_MPLS L3
+ ip vrf forwarding CMC_ASTRAZENECA_IKEJA
+ ip address 172.16.81.5 255.255.255.252
+end
+
+Oregun_BST#sh run int Vl12
+Building configuration...
+
+Current configuration : 364 bytes
+!
+interface Vlan12
+ description CRITICAL_RESCUE_ADENIYI_JONES
+ ip address 62.173.61.137 255.255.255.252 secondary
+ ip address 62.173.61.141 255.255.255.252 secondary
+ ip address 62.173.61.149 255.255.255.252 secondary
+ ip address 172.16.79.193 255.255.255.248
+ rate-limit input access-group 102 2048000 64000 128000 conform-action transmit exceed-action drop
+end
+
+Oregun_BST#
