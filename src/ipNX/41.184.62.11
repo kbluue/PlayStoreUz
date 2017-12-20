@@ -1,0 +1,16 @@
+sh int desc
+Interface                      Status         Protocol Description
+Fa0/0                          up             up       CFIP Link to Ojodu
+Fa0/1                          up             up       2MBPS INTERNET LINK TO KOLA KING
+Fa0/0/0                        up             up       Connection to SC1
+Fa0/0/1                        up             down     Connection to SC2
+Fa0/0/2                        up             up       Connection to SC3
+Fa0/0/3                        up             down     STACK PORT
+Fa0/2/0                        up             up       Connection to RMS
+Fa0/2/1                        up             down     TEST
+Fa0/2/2                        up             down     
+Fa0/2/3                        up             down     STACK PORT
+Vl1                            up             down     
+Vl410                          up             up       
+Lo0                            up             up       
+Shangisha_BST#

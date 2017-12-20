@@ -1,0 +1,178 @@
+sh int desc
+Interface                      Status         Protocol Description
+Gi0/1                          up             up       NNI CONNECTION TO  PCCW LAGOS
+Gi0/1.100                      up             up       PCCW - NIVEA OMATSHOLA HOUSE ALAUSA
+Gi0/1.306                      up             up       PCCW TO FRIGOGLASS YABA
+Gi0/1.923                      up             up       
+Gi0/1.925                      up             up       PCCW TO PHASE 3 PHC
+Gi0/1.926                      up             up       PCCW - NIVEA OMATSHOLA HOUSE ALAUSA
+Gi0/1.927                      up             up       PCCW - GATE FOUNDATION ABUJA
+Fa0/2                          down           down     VOICE CONNECTION TO MEDALLION
+Gi0/2                          up             up       CONNECTION TO 7609 ROUTER
+Gi0/3                          up             up       NNI CONNECTION TO GALAXY_BACKBONE
+Gi0/3.16                       up             up       TEST
+Gi0/3.17                       up             up       Galaxy Backbone RF-Monitoring Tool Interface
+Gi0/3.18                       up             up       GALAXY OFFICE, SOBO ARIBIODU, IKEJA GRA
+Gi0/3.19                       up             up       Pseudowire for Galaxy Nimasa 88Marine Rd Apapa
+Gi0/3.20                       up             up       Pseudowire for Galaxy VON Ikoyi
+Gi0/3.21                       up             up       Pseudowire for Galaxy Nimasa Kirikiri
+Gi0/3.22                       up             up       Pseudowire for Galaxy NAMA Local Airport
+Gi0/3.23                       up             up       Pseudowire for GALAXY MMIA 4Mbps Internet
+Gi0/3.24                       up             up       Pseudowire for GALAXY MMIA Staff 1Mbps Link
+Gi0/3.25                       up             up       Pseudowire for Galaxy PPMC Ikoyi 384kbps
+Gi0/3.26                       up             up       Pseudowire for GALAXY FMC Igbobi 128kbps
+Gi0/3.27                       up             up       Pseudowire for GALAXY NIPOST Akerele S/Lere 256kbps
+Gi0/3.28                       up             up       Pseudowire for Galaxy NGR Army HQ Signals
+Gi0/3.29                       up             up       Pseudowire for Galaxy NGR Army HQ Signals video conferencing
+Gi0/3.30                       up             up       Pseudowire for Galaxy APCON National Theatre Iganmu
+Gi0/3.31                       up             up       Pseudowire for NPF Zone2 Zonal Coordinator, Onikan
+Gi0/3.32                       up             up       Pseudowire for Galxaxy National Institute for Culture and Orientation Iganmu
+Gi0/3.33                       up             up       Pseudowire for Galaxy King's College Oregun
+Gi0/3.34                       up             up       Pseudowire for Galaxy Ministry of Foreign Affairs Ijanikin(galaxymfaijnkn)
+Gi0/3.35                       up             up       Pseudowire for Galaxy Optometrist and Dispensing Opticians Board Yaba
+Gi0/3.36                       up             up       Galaxy Ngr Natural Medicine Dev. Agency
+Gi0/3.38                       up             up       Pseudowire for Galaxy PEF Obat
+Gi0/3.39                       up             up       Pseudowire for Galaxy PEF Zonal Office VI
+Gi0/3.40                       up             up       Pseudowire for Galaxy NTA10 Tejuosho
+Gi0/3.41                       up             up       Pseudowire for Galaxy NDLEA Ikoyi
+Gi0/3.42                       up             up       Pseudowire for Galaxy MRS/Chevron
+Gi0/3.43                       up             up       Pseudowire for Galaxy PEF NIPCO Apapa
+Gi0/3.44                       up             up       Pseudowire for Oando/Total JV
+Gi0/3.45                       up             up       Pseudowire for Galaxy PEF Total Apapa
+Gi0/3.46                       up             up       Pseudowire for Galaxy PEF Folawiyo
+Gi0/3.47                       up             up       Pseudowire for Galaxy PEF Total-Ibafon
+Gi0/3.48                       up             up       Pseudowire for PEF Oando-1
+Gi0/3.49                       up             up       Pseudowire for Galaxy PEF AP Apapa
+Gi0/3.50                       up             up       Pseudowire for Galaxy PEF AZ Petroleum Apapa
+Gi0/3.51                       up             up       Pseudowire for Galaxy FRSC Ojota
+Gi0/3.52                       up             up       Pseudowire for Galaxy FRSC Oshodi
+Gi0/3.53                       up             up       Pseudowire for Galaxy FRSC Bariga
+Gi0/3.54                       up             up       Pseudowire for Galaxy FRSC Lagos Island
+Gi0/3.55                       up             up       Pseudowire for Galaxy Nigerian Navy HQ Central Pay Office Apapa
+Gi0/3.56                       up             up       Pseudowire for Galaxy Nigerian Navy HQ Western Naval Command
+Gi0/3.57                       up             up       Pseudowire for Galaxy FRSC Iponri
+Gi0/3.58                       up             up       Pseudowire for Galaxy FRSC Mainland
+Gi0/3.59                       up             up       Pseudowire for Galaxy FRSC Wharf
+Gi0/3.60                       up             up       Pseudowire for Galaxy NNS Beecroft 
+Gi0/3.61                       up             up       Pseudowire for Galaxy Nigerian Navy Centre for Education Training Tech. Quorra
+Gi0/3.62                       up             up       Pseudowire for Galaxy Nigerian Navy NNS Quorra
+Gi0/3.63                       up             up       Pseudowire for Galaxy Nigerian Navy Fleet Support Group West Lagos
+Gi0/3.64                       up             up       Pseudowire for Galaxy Nigerian Navy HQ Naval Training Command (NAVTRAC)
+Gi0/3.65                       up             up       Pseudowire for Galaxy NDLEA Nahco
+Gi0/3.66                       up             up       Pseudowire for Galaxy FIIR Agege Motor Rd
+Gi0/3.67                       up             up       Pseudowire for Galaxy Nigerian Navy NN-Logistics,Apapa
+Gi0/3.68                       up             up       Pseudowire for Galaxy Navy House Ikoyi
+Gi0/3.69                       up             up       Pseudowire for Galaxy HAJJ Commission
+Gi0/3.70                       up             up       Pseudowire for Galaxy Nigerian Prison Service Training School Kirikiri
+Gi0/3.71                       up             up       Pseudowire for Galaxy FRSC GRA Ikeja
+Gi0/3.72                       up             up       Pseudowire for Galaxy FRSC Ojodu
+Gi0/3.73                       up             up       Pseudowire for Galaxy FRSC IPC Ojodu
+Gi0/3.74                       up             up       Pseudowire for Galaxy NIPOST Ikeja
+Gi0/3.75                       up             up       Pseudowire for Galaxy NIPOST EMS Ikeja
+Gi0/3.76                       up             up       Pseudowire for Galaxy NIPOST Oshodi
+Gi0/3.77                       up             up       Pseudowire for Galaxy NN Naval Medical Centre VI
+Gi0/3.78                       up             up       Pseudowire for Galaxy FRSC ETI-OSA(Sura-Lagos Island)
+Gi0/3.79                       up             up       Pseudowire for Galaxy Nigerian Army DADP(Bonny Cantonment)
+Gi0/3.80                       up             up       Pseudowire for Galaxy Nipost Ikoyi
+Gi0/3.81                       up             up       Pseudowire for Galaxy PEF Sahara Apapa
+Gi0/3.82                       up             up       Pseudowire for Galaxy PEF Integrated Apapa
+Gi0/3.83                       up             up       Pseudowire for Galaxy PEF Rahamaniyya
+Gi0/3.84                       up             up       Pseudowire for Galaxy PEF Zenon-1 Apapa
+Gi0/3.85                       up             up       Pseudowire for Galaxy NN Naval Ordinance Depot VI
+Gi0/3.86                       up             up       Pseudowire for Galaxy NIPOST Adeniji Adele
+Gi0/3.87                       up             up       Pseudowire for Galaxy NIPOST Obalende
+Gi0/3.88                       up             up       Pseudowire for Galaxy NIPOST Moloney
+Gi0/3.89                       up             up       Pseudowire for Galaxy NN Medical Centre, Obisesan Kirikir Lagos
+Gi0/3.90                       up             up       Pseudowire for Galaxy NAMA TRACON Lagos
+Gi0/3.91                       up             up       Pseudowire for Galaxy NAF HQ LC
+Gi0/3.92                       up             up       Pseudowire for Galaxy NAF NADC
+Gi0/3.93                       up             up       Pseudowire for Galaxy NAF 104 PMG
+Gi0/3.94                       up             up       Pseudowire for Galaxy NAF AETSL
+Gi0/3.95                       up             up       Pseudowire for Galaxy NAF 201 HAG
+Gi0/3.96                       up             up       Pseudowire for Galaxy NAF 407 ESD
+Gi0/3.97                       up             up       Pseudowire for Galaxy NAF 435 BSG
+Gi0/3.98                       up             up       Pseudowire for Galaxy NAF 401 ACMD
+Gi0/3.99                       up             up       Pseudowire for Galaxy NAF 109 SIG
+Gi0/3.100                      up             up       Pseudowire for Galaxy NN Naval Air Station Ojo
+Gi0/3.101                      up             up       Pseudowire for Galaxy Nigerian Army Ordinance Corps
+Gi0/3.102                      up             up       Pseudowire for Galaxy NN NNS Wey Lagos
+Gi0/3.103                      up             up       Pseudowire for Galaxy NN Directorate of Marine Services
+Gi0/3.104                      up             up       Pseudowire for Galaxy Nipost VI1 Lagos
+Gi0/3.105                      up             up       Pseudowire for Galaxy NN Fleet Maintenance Corps
+Gi0/3.106                      up             up       Pseudowire for Galaxy NN Medical Corps and School
+Gi0/3.107                      up             up       Pseudowire for Galaxy NIS Tincan
+Gi0/3.108                      up             up       Pseudowire for Galaxy Nipost Ikorodu
+Gi0/3.109                      up             up       Pseudowire for Galaxy NIS Immigration State Command HQ Ikoyi
+Gi0/3.110                      up             up       Pseudowire for Galaxy Dental Therapist Registration Board Lagos
+Gi0/3.111                      up             up       Pseudowire for Galaxy Nigerian Medical and Dental Council VI
+Gi0/3.112                      up             up       Pseudowire for Galaxy Nigerian Prison Service, Kirikiri Maximum
+Gi0/3.113                      up             up       Pseudowire for Galaxy NDLEA Apapa Ports Command, Creek rd Apapa
+Gi0/3.114                      up             up       Pseudowire for Galaxy NAFDAC LAB YABA(PID)
+Gi0/3.115                      up             up       Pseudowire for Galaxy National Arts Theatre Iganmu
+Gi0/3.116                      up             up       Pseudowire for Galaxy FAAN HQ Ikeja
+Gi0/3.117                      up             up       Pseudowire for Galaxy FRSC IPC Okokomaiko
+Gi0/3.118                      up             up       Pseudowire for Galaxy Nipost Marina (user: galaxynipostmar / mgnt Vlan: 917)
+Gi0/3.119                      up             up       Pseudowire for Galaxy FMC Ebute-Meta
+Gi0/3.120                      up             up       Pseudowire for Galaxy Mobile Depot Apapa
+Gi0/3.122                      up             up       Pseudowire for GALAXY MACMAHON IKEJA GRA
+Gi0/3.123                      up             up       GALAXY HIGH COURT OF JUSTICE IKEJA
+Gi0/3.124                      up             up       GALAXY COURT OF APPEAL, LAGOS ISLAND
+Gi0/3.125                      up             up       GALAXY ACCIDENT AND INVESTIGATION BUREAU(AIB) OPP MMA
+Gi0/3.126                      up             up       Pseudowire for Galaxy PPMC Apapa
+Gi0/3.127                      up             up       Pseudowire for Galaxy PPMC Ejigbo
+Gi0/3.128                      up             up       Pseudowire for Galaxy PPMC Atlas-Cove
+Gi0/3.129                      up             up       Pseudowire for Galaxy Army Resettlement Centre Charity B/Stop Oshodi 
+Gi0/3.130                      up             up       Pseudowire for Galaxy Nigerian Press Council Ikoyi
+Gi0/3.131                      up             up       Pseudowire for Galaxy National Film Institute Ikoyi
+Gi0/3.132                      up             up       Pseudowire for Galaxy Postgraduate Medical College Ijanikin
+Gi0/3.134                      up             up       Pseudowire for GALAXY_NAFDAC_OSHODI 1
+Gi0/3.135                      up             up       Pseudowire for Galaxy Nigerian Industrial Court, Queens Drive Ikoyi
+Gi0/3.136                      up             up       Pseudowire for Galaxy Federal High Court Ikoyi(Bourdillon)
+Gi0/3.137                      up             up       Pseudowire for Galaxy Institute of Public Analysts of Nigeria(IPAN) Yaba
+Gi0/3.138                      up             up       Pseudowire for  Galaxy NAN National Theatre Iganmu
+Gi0/3.139                      up             up       Pseudowire for  Galaxy NAN C-Band National Theatre Iganmu
+Gi0/3.140                      up             up       Pseudowire for Galaxy Nurse Tutor's Programme Yaba
+Gi0/3.141                      up             up       Galaxy NAFDAC Apapa
+Gi0/3.142                      up             up       Pseudowire for Galaxy National Population Commission Babs-Animashaun
+Gi0/3.143                      up             up       Galaxy National Sports Commission N.Stadium S/lere
+Gi0/3.144                      up             up       Galaxy General Hospital Ajeromi
+Gi0/3.145                      up             up       Galaxy Nigerian Prison Service Ikoyi
+Gi0/3.146                      up             up       Galaxy NBC Lagos(Tafawa Balewa Square)
+Gi0/3.147                      up             up       Galaxy National Bureau of Statistics(NBS) Ikoyi
+Gi0/3.148                      up             up       Galaxy Nexim Ikoyi
+Gi0/3.149                      up             up       Pseudowire for GALAXY FRSC COMMS OJODU(cutover to P2P)
+Gi0/3.150                      up             up       Galaxy Nigerian Police Force Forensics Alagbon
+Gi0/3.151                      up             up       Galaxy NGA (National Theatre Entrance B) Iganmu
+Gi0/3.152                      up             up       Galaxy Naotap Lagos Ikoyi
+Gi0/3.153                      up             up       Pseudowire for Galaxy National Commission for Refugees Ikoyi
+Gi0/3.154                      up             up       Pseudowire for Galaxy Nigerian Universities Commission (NUC) Alagbon
+Gi0/3.155                      up             up       Galaxy FSTC, Yaba
+Gi0/3.156                      up             up       Galaxy FRSC Isolo
+Gi0/3.157                      up             up       Galaxy NAFDAC MMIA Ikeja
+Gi0/3.158                      up             up       Pseudowire for Galaxy NAFDAC Oshodi 2
+Gi0/3.159                      up             up       FMC YABA (Neuro-psychiatric hospital)
+Gi0/3.160                      up             up       Galaxy FIRS Stamp Duties Agidimgbi
+Gi0/3.161                      up             up       Galaxy Nigerian Navy Campsite Kirikiri
+Gi0/3.162                      up             up       Galaxy NDE Yaba (National Directorate of Employment)(galaxyndeyaba)
+Gi0/3.163                      up             up       Pseudowire for Galaxy RWQL Agidingbi
+Gi0/3.164                      up             up       Pseudowire for Galaxy TIC Agege
+Gi0/3.165                      up             up       Pseudowire for Galaxy PEF MRS AP
+Gi0/3.166                      up             up       Pseudowire for Galaxy Office of the Civil Service of the Federation
+Gi0/3.167                      up             up       Pseudowire for Galaxy Dr Awosika, Danny Estate, Yaba
+Gi0/3.168                      up             up       Galaxy Nigerian Nuclear Regulatory Agency,3,Atunwa Street, Ikeja
+Gi0/3.169                      up             up       Galaxy NESREA - Lagos State Office Lagos
+Gi0/3.170                      up             up       Galaxy Ministry of Communication Technology  International Radio  Monitoring Station  Ipaja, Lagos
+Gi0/3.171                      up             up       Galaxy SSS Academy Ojo Lagos
+Gi0/3.172                      up             up       Galaxy Nursing and Midwifery Council of Nigeria, Yaba, Lagos 
+Gi0/3.173                      up             up       GALAXY VIS Yard, Onigbongo Anthony bus stop, Anthony, Lagos state
+Gi0/3.174                      up             up       GALAXY FRSC ALAKA
+Gi0/3.175                      up             up       GALAXY FRSC DLC, AGEGE MAIN LOCAL GOVT COUNCIL SECRETARIAT OPPOSITE AGEGE STADIUM,AGEGE
+Gi0/3.176                      up             up       GALAXY FRSC AJEROMI IFELODUN LG COUNCIL (ANNEX), BERGER CEMENT APAPA
+Gi0/3.177                      up             up       GALAXY FRSC MOBOLAJI BANK ANTHONY IKEJA BESIDE CONOIL
+Gi0/3.178                      up             up       GALAXY FRSC DLC IGANDO (IGANDO IKOTUN LCDA IKOTUN)
+Gi0/3.180                      up             up       GALAXY BDT GROUP OKOAWO_VI
+Gi0/3.181                      up             up       CONNECTION TO GALAXY NIGERIAN RAILWAY CORPORATION (NRC), EBUTE META
+Gi0/3.182                      up             up       NAFDAC, YABA
+Gi0/3.183                      up             up       Pseudowire for Galaxy Nigerian Navy NN-Logistics,Dockyard, VI
+Gi0/3.184                      up             up       GALAXY - NIGERIAN INSTITUTE OF SCIENCE LABORATORY TECHNOLOGY, SAMONDA - DATA
+Gi0/3.185                      up             up       Pseudowire for Galaxy DPR #

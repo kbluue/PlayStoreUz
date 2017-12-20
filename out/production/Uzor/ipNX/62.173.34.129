@@ -1,0 +1,47 @@
+sh int desc
+Interface                      Status         Protocol Description
+Gi0/1                          up             up       Fibre Backbone Link to HQ-P-Router
+Fa0/2                          down           down     
+Gi0/2                          up             up       CONNECTION TO IPNX HQ (BACK UP)
+Gi0/3                          up             up       Connection to 3550 Switch
+Gi0/3.1                        up             up       Interface to Interswitch/AU 1
+Gi0/3.3                        up             up       AU 3 Interface
+Gi0/3.4                        up             up       AU 4 Interface
+Gi0/3.5                        admin down     down     AU 5 Interface
+Gi0/3.6                        up             up       
+Gi0/3.16                       up             up       TEST PORT
+Gi0/3.17                       up             up       BACKUP RADIO LINK CONNECTION TO CONVIVA
+Gi0/3.18                       up             up       ZENITH HQ 3RD PARTY CONNECTION TO PHCN-PHC
+Gi0/3.19                       up             up       Heritage Bank Head Office Ajose Adeogun (MOVED)
+Gi0/3.20                       up             up       interface for Internet Users (62.173.39.0/26) (Zenith Bank HQ (62.173.33.96/29)
+Gi0/3.21                       up             up       
+Gi0/3.22                       up             up       SAFMON For PTP-LINKS
+Gi0/3.23                       up             up       Connection to Greenwich Oyinjolayemi Radio Mgmt Parameters
+Gi0/3.24                       up             up       
+Gi0/3.26                       up             up       BACKUP RADIO TO COMVIVA,VI(172.16.78.139)
+Gi0/3.27                       up             up       CRG LINK TO TOTAL_MGT
+Gi0/3.28                       up             up       4MBPS_CONNECTION_VICLAWRENCE - CUTOVER TO FIBER
+Gi0/3.29                       admin down     down     UBNT Link to Enterprise bank HQ
+Gi0/3.30                       up             up       CRG LINK TO TOTAL_DATA
+Gi0/3.32                       up             up       
+Gi0/3.33                       up             up       IEI_VI (172.16.65.146-AP:172.16.65.147-SU)
+Gi0/3.34                       admin down     down     STANDARD CHARTD INTERNET AJOSE ADEOGUN (UBIQUITI)
+Gi0/3.35                       admin down     down     2MBps Internet for ICBL HQ(POC)
+Gi0/3.36                       up             up       CONNECTION TO OANDO VI (LDS VPN)
+Gi0/3.37                       up             up       ROYAL HASKONING COSVHARIS, ADEOLA ODEKU
+Gi0/3.38                       up             up       
+Gi0/3.39                       up             up       Storm Media Terra-Culture saf E3 link
+Gi0/3.40                       up             up       
+Gi0/3.41                       admin down     down     NIBSS P2P 4DATA RECOVERY & NCS SERVICE
+Gi0/3.43                       up             up       ZENITH CONNECTION TO UNIFIED PAYMENT (VALUCARD) - BANDWIDTH:64KBPS
+Gi0/3.44                       up             up       ZENITH BANK HQ VPN & 3RD PARTY Services
+Gi0/3.45                       admin down     down     GTB Adetokunbo Ademola E3 Backhaul link
+Gi0/3.46                       up             up       RADIO MGNT Lagoon Hospital (HYGEIA_IDEJO: R-172.16.71.235) AND Unified Payment (UPSL: 3 Idowu Taylor: R-172.16.71.237)
+Gi0/3.47                       up             up       Interface for GTB Adeola Odeku
+Gi0/3.48                       up             up       
+Gi0/3.49                       up             up       GTB E3 WAN LINK
+Gi0/3.50                       up             up       GTB iWIRELESS DEMO
+Gi0/3.51                       up             up       GTB Switch Monitoring Sub-Interface
+Gi0/3.52                       up             up       Connnection to Hygeia Datacentre Interswitch
+Gi0/3.53                       up             up       HERIAGE BANK AJOSE ADEOGUN E1 GATEWAY
+Gi0/3.54                       up             up       2Mbps Radio Link to CMC-UNIFIEDPAY #

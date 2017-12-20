@@ -43,10 +43,14 @@ public class Interface {
     }
 
     public static void generateRunCommand(ArrayList<Interface> map,String outFilePath){
-        File batchOut = new File(outFilePath);
-        StringBuilder builder = new StringBuilder(getRunCommand(map));
+        printToFile(getRunCommand(map), outFilePath);
+    }
+
+    public static void printToFile(String filePath,String content){
+        File file = new File(filePath);
+        StringBuilder builder = new StringBuilder(content);
         try {
-            FileWriter writer = new FileWriter(batchOut);
+            FileWriter writer = new FileWriter(file);
             writer.write(builder.toString());
             writer.close();
         } catch (IOException e) {

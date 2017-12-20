@@ -14,9 +14,13 @@ public class AutomatedTelnetClient {
     private TelnetClient telnet = new TelnetClient();
     private InputStream in;
     private PrintStream out;
-    private String prompt = "#";
+    private String prompt = "#", user, password;
 
     public AutomatedTelnetClient(String server, String user, String password) {
+
+        this.user = user;
+        this.password = password;
+
         try {
             // Connect to the specified server
             telnet.connect(server, 23);
@@ -88,16 +92,29 @@ public class AutomatedTelnetClient {
         }
     }
 
+    public void printAllInterface(String location){
+        //log into router
+        sendCommand(location);
+        readUntil(": ");
+        write(user);
+        readUntil("Password: ");
+        String control = sendCommand(password);
+        if (control.contains("% Auth")) return;
+        String content = sendCommand("sh int desc");
+        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\" + location, content);
+        sendCommand("exi");
+    }
+
     public static void main(String[] args) {
         try {
             AutomatedTelnetClient telnet = new AutomatedTelnetClient(
                     "10.163.4.2", "west", "corenetwork");
-//            System.out.println("Got Connection...");
-//            telnet.sendCommand("ps -ef ");
-//            System.out.println("sh int");
-            String src = telnet.sendCommand("sh int desc");
-            new RouterRun().readSource(new Scanner(src));
-//            System.out.println("sh int desc");
+            String[] locations = RouterRun.getArray();
+            for (String location : locations) {
+                telnet.printAllInterface(location);
+            }
+//            String src = telnet.sendCommand("sh int desc");
+//            new RouterRun().readSource(new Scanner(src));
             telnet.disconnect();
             System.out.println("DONE");
         } catch (Exception e) {

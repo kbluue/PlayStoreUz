@@ -152,16 +152,8 @@ public class Layer2 {
         this.batchPath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s", batchPath);
     }
 
-    private void push(String path,String content){
-        File batchOut = new File(path);
-        StringBuilder builder = new StringBuilder(content);
-        try {
-            FileWriter writer = new FileWriter(batchOut);
-            writer.write(builder.toString());
-            writer.close();
-        } catch (IOException e) {
-            System.err.println("Error Writing File");
-        }
+    public void push(String path,String content){
+        Interface.printToFile(path, content);
     }
 
     private void pushBatchCode(){
