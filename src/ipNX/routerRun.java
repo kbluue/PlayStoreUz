@@ -16,23 +16,6 @@ public class RouterRun {
 //        } catch (FileNotFoundException e) {
 //            e.printStackTrace();
 //        }
-        System.out.println(Arrays.toString(RouterRun.getArray()));
-    }
-
-    public static String[] getArray(){
-        Scanner in  = new Scanner(
-                "62.173.34.130\n" +
-                "172.18.24.33");
-        List<String> out = new ArrayList<>();
-        System.out.println("in");
-        while (in.hasNextLine()){
-            String line = in.nextLine().trim();
-            System.out.println(line);
-            if (line.equals("")) continue;
-            out.add(line);
-        }
-        System.out.println("out");
-        return out.toArray(new String[out.size()]);
     }
 
     public static String lineTrim(String line){
@@ -74,7 +57,7 @@ public class RouterRun {
                 if (line.length == 1) return;
             }
 
-            // read for "sh run int command"
+            // readForThread for "sh run int command"
 //            if (line[1].contains("run") || line[2].contains("run")) ;
         }
 
