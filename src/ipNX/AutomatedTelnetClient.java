@@ -5,6 +5,7 @@ import org.apache.commons.net.telnet.TelnetClient;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -15,56 +16,50 @@ public class AutomatedTelnetClient {
     private TelnetClient telnet = new TelnetClient();
     private InputStream in;
     private PrintStream out;
-    private String prompt = "#", user, password, location = "";
+    private String user, password, location = "";
 
     public AutomatedTelnetClient(String server, String user, String password) {
 
         this.user = user;
         this.password = password;
 
-        try {
-            // Connect to the specified server
-            telnet.connect(server, 23);
+        login(server, true, true);
 
-            // Get input and output stream references
-            in = telnet.getInputStream();
-            out = new PrintStream(telnet.getOutputStream());
-
-            // Log the user on
-            readUntil("Username: ");
-            write(user);
-            readUntil("Password: ");
-            write(password);
-            sendCommand("terminal length 0");
-
-            // Advance to a prompt
-            readUntil(prompt);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        System.out.println(sendCommand("terminal length 0"));
     }
 
-    public void readTest(){
-        StringBuffer sb = new StringBuffer();
-        boolean newLine = false;
-
-        try{
-            while (true){
-                int inInt = in.read();
-                char inChar = (char) inInt;
-                sb.append(inChar);
-                System.out.print(inChar);
-
-                if (newLine) location += String.valueOf(inChar);
-
-                if (inInt == 10) newLine = true;
-                else if (inInt == 32) newLine = false;
-
-//                if (newLine)
+    public void login(String address,boolean log,boolean start){
+        if (start) {
+            try {
+                telnet.connect(address, 23);
+            } catch (IOException e) {
+                e.printStackTrace();
+                return;
             }
-        } catch (IOException e){
-            e.printStackTrace();
+            in = telnet.getInputStream();
+            out = new PrintStream(telnet.getOutputStream());
+        } else write(address);
+
+        write(user);
+        write(password);
+
+        String readOut = readUntil("#");
+
+        if (readOut.contains(".")) System.out.println("Error connecting to " + address); //// FIXME: 1/3/2018 Ampersand change (keyboard error)
+        else {
+            String lines[] = readOut.split("\n");
+            location = lines[lines.length - 1];
         }
+
+        if (log) System.out.println(readOut);
+    }
+
+    public void login(String address,boolean log){
+        login(address, log, false);
+    }
+
+    public void login(String address){
+        login(address, false, false);
     }
 
     public String readUntil(String pattern) {
@@ -73,7 +68,6 @@ public class AutomatedTelnetClient {
             StringBuffer sb = new StringBuffer();
             char ch = (char) in.read();
             while (true) {
-                System.out.print(ch);
                 sb.append(ch);
                 if (ch == lastChar) {
                     if (sb.toString().endsWith(pattern)) {
@@ -101,7 +95,7 @@ public class AutomatedTelnetClient {
     public String sendCommand(String command) {
         try {
             write(command);
-            return readUntil(prompt);
+            return readUntil(location);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -116,17 +110,12 @@ public class AutomatedTelnetClient {
         }
     }
 
-    public void printAllInterface(String location){
+    public void printAllInterface(String routerAddress){
         //log into router
-        sendCommand(location);
-        readUntil(": ");
-        write(user);
-        readUntil("Password: ");
-        String control = sendCommand(password);
-        if (control.contains("% Auth")) return;
+        login(routerAddress);
         String content = sendCommand("sh int desc");
-        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\" + location, content);
-        sendCommand("exi");
+        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\" + routerAddress, content);
+        write("exit");
     }
 
     public static void main(String[] args) {
@@ -143,9 +132,10 @@ public class AutomatedTelnetClient {
 //            e.printStackTrace();
 //        }
 
-        for (int i = 0; i < 100; i++) {
-            System.out.println(i + " ==> " + (char) i);
-        }
+        System.out.println(Arrays.toString("erfev\neocnv".split("\n")));
+//        for (int i = 0; i < 100; i++) {
+//            System.out.println(i + " ==> " + (char) i);
+//        }
     }
 
 }

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700dfd25-ca4a-4c3d-8d6e-45e3fc92c939" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Uzor/putty.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/putty.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Uzor/ipNX/AutomatedTelnetClient.class" afterPath="$PROJECT_DIR$/out/production/Uzor/ipNX/AutomatedTelnetClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Uzor/ipNX/RouterRun.class" afterPath="$PROJECT_DIR$/out/production/Uzor/ipNX/RouterRun.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ipNX/62.173.34.130" afterPath="$PROJECT_DIR$/src/ipNX/62.173.34.130" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ipNX/AutomatedTelnetClient.java" afterPath="$PROJECT_DIR$/src/ipNX/AutomatedTelnetClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ipNX/routerRun.java" afterPath="$PROJECT_DIR$/src/ipNX/routerRun.java" />
     </list>
     <ignored path="Uzor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,17 +35,18 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#RouterRun#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutomatedTelnetClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AutomatedTelnetClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ipNX/AutomatedTelnetClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.73675764">
+              <caret line="157" column="72" selection-start-line="157" selection-start-column="72" selection-end-line="157" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="putty.str.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="putty.str.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/putty.str.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4365971">
+            <state vertical-scroll-proportion="0.0">
               <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding />
             </state>
@@ -189,8 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -255,6 +248,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,6 +301,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1071,12 +1066,15 @@
       <workItem from="1513779554907" duration="6309000" />
       <workItem from="1513863478220" duration="1820000" />
       <workItem from="1513935745773" duration="10027000" />
-      <workItem from="1513956406177" duration="1701000" />
+      <workItem from="1513956406177" duration="1782000" />
+      <workItem from="1514153497165" duration="696000" />
+      <workItem from="1514878777191" duration="601000" />
+      <workItem from="1514936605255" duration="1542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269209000" />
+    <option name="totallyTimeSpent" value="272129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1090,7 +1088,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.24577573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32361963" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220859" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1448,11 +1446,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78170145">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ipNX/RouterRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#RouterRun#0" expanded="false" />
           </folding>
         </state>
@@ -1480,29 +1486,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Runnable.java">
+    <entry file="file://$PROJECT_DIR$/src/putty.str.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78170145">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ipNX/AutomatedTelnetClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.73675764">
+          <caret line="157" column="72" selection-start-line="157" selection-start-column="72" selection-end-line="157" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/putty.str.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4365971">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
