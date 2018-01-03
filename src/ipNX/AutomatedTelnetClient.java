@@ -72,8 +72,6 @@ public class AutomatedTelnetClient {
             if (control == '%') {
                 System.err.println("Wrong Credentials");
                 return false;
-//                telnet.disconnect();
-//                System.exit(2);
             } else readOut += control;
         } catch (IOException e) {
             e.printStackTrace();
@@ -120,7 +118,6 @@ public class AutomatedTelnetClient {
         try {
             out.println(value);
             out.flush();
-//            System.out.println(value); //// TODO: 1/3/2018 note to decide if this will stay
         } catch (Exception e) {
             e.printStackTrace();
         }
