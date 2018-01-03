@@ -5,8 +5,7 @@ import org.apache.commons.net.telnet.TelnetClient;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.net.ConnectException;
 
 /**
  * Created by _kbluue_ on 12/19/2017.
@@ -23,43 +22,78 @@ public class AutomatedTelnetClient {
         this.user = user;
         this.password = password;
 
-        login(server, true, true);
-
-        System.out.println(sendCommand("terminal length 0"));
+        if (login(server, true, true)) System.out.println(sendCommand("terminal length 0"));
+        else System.exit(2);
     }
 
-    public void login(String address,boolean log,boolean start){
+    public boolean login(String address,boolean log,boolean start){
         if (start) {
             try {
                 telnet.connect(address, 23);
-            } catch (IOException e) {
+            } catch (ConnectException e){
+                System.err.println("Connection timed out");
+                System.exit(2);
+            }catch (IOException e) {
                 e.printStackTrace();
-                return;
             }
             in = telnet.getInputStream();
             out = new PrintStream(telnet.getOutputStream());
-        } else write(address);
+        } else {
+            write(address);
+            readUntil("\n");
+            String nLine =  readUntil("\n");
+
+            if (!nLine.contains("Open")){
+                System.out.printf("Error connecting to %s%n", address);
+                return false;
+            }
+        }
 
         write(user);
         write(password);
 
-        String readOut = readUntil("#");
+        String readOut = "";
+        boolean introDone = false, introStarted = false;
 
-        if (readOut.contains(".")) System.out.println("Error connecting to " + address); //// FIXME: 1/3/2018 Ampersand change (keyboard error)
-        else {
-            String lines[] = readOut.split("\n");
-            location = lines[lines.length - 1];
+        while (!introDone){
+            String line = readUntil("\n");
+            readOut += line;
+
+            if (introStarted && !line.contains("##")) introDone = true;
+            else if (line.contains("##")) introStarted = true;
         }
 
+        for (int i = 0; i < (start ? 3 : 6); i++) {
+            readOut += readUntil("\n");
+        }
+
+        try {
+            char control = (char) in.read();
+            if (control == '%') {
+                System.err.println("Wrong Credentials");
+                return false;
+//                telnet.disconnect();
+//                System.exit(2);
+            } else readOut += control;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        readOut += readUntil("#");
+        String lines[] = readOut.split("\n");
+        location = lines[lines.length - 1];
+
         if (log) System.out.println(readOut);
+
+        return true;
     }
 
-    public void login(String address,boolean log){
-        login(address, log, false);
+    public boolean login(String address,boolean log){
+        return login(address, log, false);
     }
 
-    public void login(String address){
-        login(address, false, false);
+    public boolean login(String address){
+        return login(address, false);
     }
 
     public String readUntil(String pattern) {
@@ -86,7 +120,7 @@ public class AutomatedTelnetClient {
         try {
             out.println(value);
             out.flush();
-            System.out.println(value);
+//            System.out.println(value); //// TODO: 1/3/2018 note to decide if this will stay
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -112,30 +146,25 @@ public class AutomatedTelnetClient {
 
     public void printAllInterface(String routerAddress){
         //log into router
-        login(routerAddress);
+        if (!login(routerAddress)) {
+            System.err.printf("Printing of interfaces on %s failed.%n", routerAddress);
+            return;
+        }
         String content = sendCommand("sh int desc");
-        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\" + routerAddress, content);
+        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\s" + routerAddress, content);
+        System.out.printf("All interfaces in %s printed%n", location);
         write("exit");
     }
 
     public static void main(String[] args) {
-//        try {
-//            AutomatedTelnetClient telnet = new AutomatedTelnetClient(
-//                    "10.163.4.2", "west", "corenetwork");
-//            telnet.write("sh int");
-//            telnet.readTest();
-////            String src = telnet.sendCommand("sh int desc");
-////            new RouterRun().readSource(new Scanner(src));
-//            telnet.disconnect();
-//            System.out.println("DONE");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
-        System.out.println(Arrays.toString("erfev\neocnv".split("\n")));
-//        for (int i = 0; i < 100; i++) {
-//            System.out.println(i + " ==> " + (char) i);
-//        }
+        try {
+            AutomatedTelnetClient telnet = new AutomatedTelnetClient(
+                    "10.163.64.2", "west", "corenetwork");
+            telnet.printAllInterface("41.184.110.2");
+            telnet.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
