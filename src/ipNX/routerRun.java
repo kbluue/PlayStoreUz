@@ -10,6 +10,7 @@ import java.util.*;
  */
 public class RouterRun {
 
+
     public static void main(String[] args){
 //        try {
 //            new RouterRun().readSource(new Scanner(new File("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\putty.log")));
@@ -27,42 +28,4 @@ public class RouterRun {
         return out;
     }
 
-    public void readSource(Scanner src){
-        boolean interfaceNext = false;
-        ArrayList<Interface> interfaces = new ArrayList<>();
-
-        while (src.hasNextLine()){
-            String next = src.nextLine();
-            if (next.equals("")) continue;
-            String[] line = lineTrim(next).split(" ", 4);
-
-            if (interfaceNext){
-                //add interface to arraylist
-                interfaces.add(new Interface(line));
-            }
-
-            if (Objects.equals(line[0], "Interface")) interfaceNext = true;
-
-            if (line[0].contains("#") && !line[0].contains("##")){
-                String location = line[0].split("#")[0];
-
-                if (interfaceNext) {
-                    Interface.setMapLocation(interfaces, location);
-                    Interface.printMap(interfaces);
-                    Interface.generateRunCommand(interfaces);
-                    return;
-                }
-                interfaceNext = false;
-
-                if (line.length == 1) return;
-            }
-
-            // readForThread for "sh run int command"
-//            if (line[1].contains("run") || line[2].contains("run")) ;
-        }
-
-        for (Interface i : interfaces) {
-            System.out.println(i.toString());
-        }
-    }
 }

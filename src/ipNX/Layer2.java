@@ -2,8 +2,6 @@ package ipNX;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.*;
 
 /**
@@ -11,7 +9,7 @@ import java.util.*;
  */
 public class Layer2 {
 
-    Map<String,String[]> subInterfaces;
+    Router<String,String[]> subInterfaces;
     String inPath, outPath, codePath, batchCode, batchPath;
 
     public Layer2() {
@@ -25,7 +23,7 @@ public class Layer2 {
         batchCode = getBatchPath();
     }
 
-    public Map<String, String[]> getSubInterfaces() {
+    public Router<String, String[]> getSubInterfaces() {
         return subInterfaces;
     }
 

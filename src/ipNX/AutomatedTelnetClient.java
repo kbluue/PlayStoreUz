@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.net.ConnectException;
+import java.nio.file.Paths;
 
 /**
  * Created by _kbluue_ on 12/19/2017.
@@ -15,7 +16,9 @@ public class AutomatedTelnetClient {
     private TelnetClient telnet = new TelnetClient();
     private InputStream in;
     private PrintStream out;
-    private String user, password, location = "";
+    private String user, password;
+    String location;
+    final String localPath = Paths.get("").toAbsolutePath().toString();
 
     public AutomatedTelnetClient(String server, String user, String password) {
 
@@ -23,6 +26,15 @@ public class AutomatedTelnetClient {
         this.password = password;
 
         if (login(server, true, true)) System.out.println(sendCommand("terminal length 0"));
+        else System.exit(2);
+    }
+
+    public AutomatedTelnetClient(boolean silent){
+        user = "west";
+        password = "corenetwork";
+
+        if (login("10.163.4.2", !silent, true)) sendCommand("terminal length 0");
+        else if (login("10.163.64.2", !silent, true)) sendCommand("terminal length 0");
         else System.exit(2);
     }
 
@@ -94,6 +106,12 @@ public class AutomatedTelnetClient {
         return login(address, false);
     }
 
+    public void logout() {
+        write("exit");
+        String content[] = readUntil("#").split("\n");
+        location = content[content.length - 1];
+    }
+
     public String readUntil(String pattern) {
         try {
             char lastChar = pattern.charAt(pattern.length() - 1);
@@ -135,29 +153,6 @@ public class AutomatedTelnetClient {
 
     public void disconnect() {
         try {
-            telnet.disconnect();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void printAllInterface(String routerAddress){
-        //log into router
-        if (!login(routerAddress)) {
-            System.err.printf("Printing of interfaces on %s failed.%n", routerAddress);
-            return;
-        }
-        String content = sendCommand("sh int desc");
-        Interface.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\s" + routerAddress, content);
-        System.out.printf("All interfaces in %s printed%n", location);
-        write("exit");
-    }
-
-    public static void main(String[] args) {
-        try {
-            AutomatedTelnetClient telnet = new AutomatedTelnetClient(
-                    "10.163.64.2", "west", "corenetwork");
-            telnet.printAllInterface("41.184.110.2");
             telnet.disconnect();
         } catch (Exception e) {
             e.printStackTrace();
