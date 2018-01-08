@@ -1,5 +1,8 @@
 package ipNX;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Objects;
 
@@ -17,6 +20,19 @@ public class HB {
             if (!Objects.equals(word, "")) out += (word.trim() + " ");
         }
         return out;
+    }
+
+    public static void printToFile(String filePath,String content){
+        File file = new File(filePath);
+        StringBuilder builder = new StringBuilder(content);
+        try {
+            FileWriter writer = new FileWriter(file);
+            writer.write(builder.toString());
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.err.println("Error Writing File");
+        }
     }
 
 }

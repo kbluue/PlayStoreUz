@@ -56,20 +56,9 @@ public class Router {
     }
 
     public void generateRunCommand(String filename){
-        printToFile(generateRunCommand(), HB.localPath + "temp\\" + filename);
+        HB.printToFile(HB.localPath + "temp\\" + filename, generateRunCommand());
     }
 
-    public static void printToFile(String filePath,String content){
-        File file = new File(filePath);
-        StringBuilder builder = new StringBuilder(content);
-        try {
-            FileWriter writer = new FileWriter(file);
-            writer.write(builder.toString());
-            writer.close();
-        } catch (IOException e) {
-            System.err.println("Error Writing File");
-        }
-    }
 
     public ArrayList<Interface> readSource(Scanner src){ //// TODO: 1/4/2018 Annotate lines to determine code function
         boolean interfaceNext = false; //tracker to determine when and what data line is a sub interface
@@ -102,10 +91,16 @@ public class Router {
             return null;
         }
         String content = client.sendCommand("sh int desc");
-        if (log) printToFile("store\\interfaces\\" + routerAddress, content);
+        if (log) HB.printToFile("store\\interfaces\\" + routerAddress, content);
         System.out.printf("All interfaces in %s printed%n", client.location);
         client.logout();
         return readSource(new Scanner(content));
+    }
+
+    public void updateXConnProp(){
+        for (Interface anInterface : interfaces) {
+//            interfaces.get
+        }
     }
 
 }

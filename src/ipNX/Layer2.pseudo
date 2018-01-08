@@ -151,7 +151,7 @@ public class Layer2 {
     }
 
     public void push(String path,String content){
-        Interface.printToFile(path, content);
+        HB.printToFile(path, content);
     }
 
     private void pushBatchCode(){

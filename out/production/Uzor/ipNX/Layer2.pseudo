@@ -1,0 +1,210 @@
+package ipNX;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+/**
+ * Created by _kbluue_ on 12/13/2017.
+ */
+public class Layer2 {
+
+    Router<String,String[]> subInterfaces;
+    String inPath, outPath, codePath, batchCode, batchPath;
+
+    public Layer2() {
+        setInPath("ipNX/in.la2");
+        setOutPath("ipNX/out.la2");
+        setCodePath("ipNX/code.la2");
+        setBatchPath("ipNX/batchOut.la2");
+        inPath = getInPath();
+        outPath = getOutPath();
+        codePath = getCodePath();
+        batchCode = getBatchPath();
+    }
+
+    public Router<String, String[]> getSubInterfaces() {
+        return subInterfaces;
+    }
+
+    public void setSubInterfaces() {
+        if (inPath == null) {
+            System.err.println("Set inPath");
+            return;
+        }
+
+        Scanner in = null;
+        try {
+            in = new Scanner(new File(getInPath()));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (in == null) {
+            System.out.println(getInPath());
+            System.out.println("Input File Error");
+            return;
+        }
+
+        subInterfaces = new HashMap<>();
+//        boolean interfaceLine = false;
+
+        while (in.hasNextLine()){
+            String l = in.nextLine();
+            Scanner line = new Scanner(l);
+
+            ///////////////
+//            if (interfaceLine){
+//                System.out.println("Interface run start");
+//                if (line.next().contains("#")) {
+//                    if (line.hasNext()) processCode();
+//                    else {
+//                        Object keys[] = subInterfaces.keySet().toArray();
+//                        batchCode = "";
+//                        for (Object k : keys) {
+//                            batchCode += ("sh run int " + k + "\n");
+//                        }
+//                        pushBatchCode();
+//                        System.out.println("Batch code changed");
+//                    }
+//                    System.out.println("INterface run end in #");
+//                    return;
+//                }
+//                String key = line.next();
+//                String[] values = new String[2];
+//                values[0] = line.next();
+//                if (Objects.equals(values[0], "admin") || Objects.equals(values[0], "deleted")) continue;
+//                values[1] = line.nextLine();
+//                subInterfaces.put(key, values);
+//                System.out.println("Interface run ends below sunInt");
+//            }
+//
+//            if (!line.hasNext()) continue;
+//            String firstPart = line.next();
+//            System.out.println(firstPart);
+//
+//            if (!Objects.equals(firstPart, "Interface")) continue;
+//            if (Objects.equals(line.next(), "Status")) interfaceLine = true;
+            ///////////////
+
+            if (!line.hasNext()) continue;
+            String key = line.next();
+            if (Objects.equals(key, "Interface")) continue;
+            String[] values = new String[2];
+            values[0] = line.next();
+            if (Objects.equals(values[0], "admin") || Objects.equals(values[0], "deleted")) continue;
+            values[1] = line.nextLine();
+            subInterfaces.put(key, values);
+        }
+
+        Object keys[] = subInterfaces.keySet().toArray();
+        batchCode = "";
+        for (Object k : keys) {
+            batchCode += ("sh run int " + k + "\n");
+        }
+        pushBatchCode();
+        System.out.println("Batch code changed");
+
+//        System.out.println(Arrays.toString(subInterfaces.keySet().toArray()));
+//        System.out.println(batchCode);
+        pushBatchCode();
+    }
+
+    public String getInPath() {
+        return inPath;
+    }
+
+    public void setInPath(String inPath) {
+        this.inPath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s", inPath);
+    }
+
+    public void setInPath(String filename,String extention){
+        this.inPath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s.%s", filename, extention);
+    }
+
+    public void setInPath(String filename,boolean isText){
+        if (isText) setInPath(filename, "txt");
+        else setInPath(filename);
+    }
+
+    public String getOutPath() {
+        return outPath;
+    }
+
+    public void setOutPath(String outPath) {
+        this.outPath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s", outPath);
+}
+
+    public String getCodePath() {
+        return codePath;
+    }
+
+    public void setCodePath(String codePath) {
+        this.codePath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s", codePath);
+    }
+
+    public String getBatchPath() {
+        return batchPath;
+    }
+
+    public void setBatchPath(String batchPath) {
+        this.batchPath = String.format("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\%s", batchPath);
+    }
+
+    public void push(String path,String content){
+        HB.printToFile(path, content);
+    }
+
+    private void pushBatchCode(){
+        push(getBatchPath(), batchCode);
+    }
+
+    private void pushOut(String content){
+        push(getOutPath(), content);
+    }
+
+    Object[] processCode(){
+        Scanner in;
+        try {
+            in = new Scanner(new File(getCodePath()));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+        ArrayList<String> out = new ArrayList<>();
+        String[] lineStore = new String[3];
+        int i = 0, count = 0;
+        while (in.hasNextLine()){
+            String line = in.nextLine();
+            if (line.contains(" run ")) {
+                String lineSplit[] = line.split(" ");
+                lineStore[i++ % 3] = lineSplit[lineSplit.length - 1];
+            } else if (line.contains("xconn")){
+                System.out.print(++count + ": ");
+                String key = lineStore[--i % 3];
+                System.out.println(key);
+                out.add(key);
+//                if (key != null)out.put(key, subInterfaces.get(key));
+            }
+        }
+        Object[] keys = out.toArray();
+        String outContent = "";
+        for (Object k : keys) {
+            String print = (k + " "+ Arrays.toString(subInterfaces.get(k)));
+            print = print.replace('[',' ').replace(']', ' ').replace(',', ' ');
+            outContent += (print + "\n");
+            System.out.println(print);
+        }
+
+        pushOut(outContent);
+        return out.toArray();
+    }
+
+    public static void main(String[] args){
+        Layer2 layer2 = new Layer2();
+//        layer2.setInPath("putty.log");
+        layer2.setSubInterfaces();
+        layer2.setCodePath("ipNX/putty.log");
+        layer2.processCode();
+    }
+
+}

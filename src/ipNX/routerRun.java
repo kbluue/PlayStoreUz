@@ -17,15 +17,11 @@ public class RouterRun {
 //        } catch (FileNotFoundException e) {
 //            e.printStackTrace();
 //        }
-    }
 
-    public static String lineTrim(String line){
-        String[] words = line.split(" ");
-        String out = "";
-        for (String word : words) {
-            if (!Objects.equals(word, "")) out += (word.trim() + " ");
-        }
-        return out;
+        Router dolphin = new Router("41.184.62.7");
+        dolphin.generateRunCommand("dolphin test");
+        System.out.println(dolphin.toString());
+
     }
 
 }
