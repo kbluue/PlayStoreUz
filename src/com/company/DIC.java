@@ -2,6 +2,9 @@ package com.company;
 
 import ipNX.HB;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,48 +15,63 @@ import java.util.List;
 public class DIC {
 
     public static void main(String[] args){
-//        digit bin = new digit("0", "1", "1");
-//        digit bin = new digit("a").bothCases();
-//        word _3bin = new word(bin.clone(), new digit("2"), bin.clone(), bin.clone(), bin.clone());
-//        PAPV(_3bin);
-        word bcorp = new word(new digit(" ", "_", "`", "~", "%", "^", "!", "-"),
-                new digit("_", "`", "~", "%", "^", "!", "-"),
-                new digit("l").bothCases()
-        );
 
-//        bcorpDIC();
-
-//        System.out.println(binclone.toString());
-//
-        for (int i = 0; i < 33; i++) {
-            bcorp.plus1();
-            System.out.println(bcorp.toString());
-        }
+        bcorpDIC();
     }
 
     static void PAPV(word word){
+
+        int num = 0, fnum = 0;
+
+        try {
+            System.setOut(new PrintStream(new File("console.txt")));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
         String initial = word.toString();
-        String toPrint = "";
         System.out.println(initial);
         word.plus1();
         while (!initial.equals(word.toString())){
-            toPrint += (word.toString() + "\n");
+
+            if (num > 100000){
+                num = 0;
+                fnum++;
+                try {
+                    System.setOut(new PrintStream(new File("console.txt" + fnum)));
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+
             System.out.println(word.toString());
             word.plus1();
+            num++;
         }
-        HB.printToFile("PAPV", toPrint);
     }
 
     static void bcorpDIC(){
-        word bcorp = new word(new digit(" ", "_", "`", "~", "%", "^", "!", "-"),
-                new digit("_", "`", "~", "%", "^", "!", "-"),
+        word bcorp = new word(
+                new digit(" ", "_", "`", "~", "%", "^", "!", "-", ""),
+                new digit(" ", "_", "`", "~", "%", "^", "!", "-"),
                 bothCases("b"),
-                bothCases("l")
+                bothCases("l"),
+                bothCases("u"),
+                bothCases("e", "3"),
+                bothCases("c"),
+                bothCases("o", "0"),
+                bothCases("r"),
+                bothCases("p"),
+                bothCases("o", "0"),
+                bothCases("o", "0"),
+                new digit(digit.NUMERALS),
+                new digit(" ", "_", "`", "~", "%", "^", "!", "-"),
+                new digit(" ", "_", "`", "~", "%", "^", "!", "-", "")
                 );
         PAPV(bcorp);
     }
 
-    static digit bothCases(String chr){
+    static digit bothCases(String... chr){
         return new digit(chr).bothCases();
     }
 
