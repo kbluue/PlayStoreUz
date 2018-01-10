@@ -1,9 +1,7 @@
 package ipNX;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Paths;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
@@ -25,15 +23,37 @@ public class Router {
     Router (String address){
         this.address = address;
         interfaces = getSubInterfaces(address, false);
+        updateXConnProp();
+    }
+
+    Router (File file){
+        try {
+            Scanner in = new Scanner(file);
+            this.location = in.nextLine();
+            this.address = in.nextLine();
+            in.nextLine();
+            this.interfaces = new ArrayList<>();
+            while (in.hasNextLine()){
+                this.interfaces.add(new Interface(HB.lineTrim(in.nextLine()).split(" ", 4)));
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public String toString() {
         String out = "";
         out += ((location == null ? "Location not Set" : location) + "\n");
-        out += String.format("%-15s%-10s%-10s%-60s\n", "Interface", "Status", "Protocol", "Description");
+        out += ((address == null ? "Location not Set" : address) + "\n");
+        out += String.format("%-15s%-10s%-10s%-60s\n", "Interface", "Status", "Layer 2 XConnect", "Description");
         for (Interface anInterface : interfaces) out += (anInterface.toString() + "\n");
         return out;
+    }
+
+    public void printXcon(){
+        System.out.printf("%-15s%-10s%-10s%-60s\n", "Interface", "Status", "Protocol", "Description");
+        for (Interface anInterface : interfaces) if (anInterface.xconnect) System.out.println(anInterface.toString());
     }
 
     public void printMap(){
@@ -44,10 +64,9 @@ public class Router {
         this.location = location;
     }
 
-    //// TODO: 1/5/2018 refit this method
-//    public static void setMapLocation(ArrayList<Interface> map, String location){
-//        for (Interface anInterface : map) anInterface.setLocation(location);
-//    }
+    public String getLocation() {
+        return location;
+    }
 
     public String generateRunCommand(){
         String out = "";
@@ -98,9 +117,19 @@ public class Router {
     }
 
     public void updateXConnProp(){
-        for (Interface anInterface : interfaces) {
-//            interfaces.get
+        //log into router
+        if (!client.login(address)) {
+            System.err.printf("Printing of interfaces on %s failed.%n", address);
+            return;
         }
+        XConnRunAction();
+        client.logout();
+    }
+
+    private void XConnRunAction(){
+        client.write(generateRunCommand());
+        for (Interface anInterface : interfaces)
+            if (client.readUntil(location).contains("xconnect")) anInterface.setXconnect(true);
     }
 
 }

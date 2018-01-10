@@ -1,14 +1,12 @@
 package ipNX;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.lang.reflect.Array;
-import java.util.*;
-
 /**
  * Created by _kbluue_ on 12/16/2017.
  */
-public class RouterRun {
+public class RouterRun{
+
+
+
 
 
     public static void main(String[] args){
@@ -18,10 +16,15 @@ public class RouterRun {
 //            e.printStackTrace();
 //        }
 
-        Router dolphin = new Router("41.184.62.7");
-        dolphin.generateRunCommand("dolphin test");
-        System.out.println(dolphin.toString());
+//        Router dolphin = new Router("41.184.62.7");
+//        dolphin.generateRunCommand("dolphin test");
+//        System.out.println(dolphin.toString());
 
+        for (String s : HB.ADDRESS) {
+            Router router = new Router(s);
+            HB.printToFile(HB.localPath + "\\routerStore\\" + router.getLocation() + ".rtr", router.toString());
+        }
     }
+
 
 }

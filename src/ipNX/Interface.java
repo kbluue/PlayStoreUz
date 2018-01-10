@@ -1,17 +1,11 @@
 package ipNX;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-
 /**
  * Created by _kbluue_ on 12/16/2017.
  */
 public class Interface {
 
-    String name, status, protocol, description, location, locationIP;
+    String name, status, protocol, description;
     boolean xconnect;
     int runError = 0;
 
@@ -43,12 +37,8 @@ public class Interface {
         this.runError = runError;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
     @Override
     public String toString() {
-        return String.format("%-15s%-10s%-10s%-60s", name, status, protocol, description);
+        return String.format("%-15s%-10s%-10s%-60s", name, status, (xconnect ? "TRUE" : "FALSE"), description);
     }
 }
