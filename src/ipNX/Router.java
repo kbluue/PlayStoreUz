@@ -128,8 +128,8 @@ public class Router {
 
     private void XConnRunAction(){
         client.write(generateRunCommand());
-        for (Interface anInterface : interfaces)
-            if (client.readUntil(location).contains("xconnect")) anInterface.setXconnect(true);
+        for (int i = 0; i < interfaces.size() - 3; i++)
+            if (client.readUntil(location).contains("xconnect")) interfaces.get(i).setXconnect(true);
     }
 
 }

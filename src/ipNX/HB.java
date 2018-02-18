@@ -2,9 +2,8 @@ package ipNX;
 
 import org.jetbrains.annotations.Contract;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.net.URL;
 import java.nio.file.Paths;
 import java.util.Objects;
 
@@ -51,6 +50,7 @@ public class HB {
         File file = new File(filePath);
         StringBuilder builder = new StringBuilder(content);
         try {
+//            if (!file.exists()) file.createNewFile();
             FileWriter writer = new FileWriter(file);
             writer.write(builder.toString());
             writer.close();
@@ -58,6 +58,26 @@ public class HB {
             e.printStackTrace();
             System.err.println("Error Writing File");
         }
+    }
+
+    public static String readFromWWW(String address){
+        String out = "";
+        try {
+            // Create a URL for the desired page
+            URL url = new URL("http://" + address);
+
+            // Read all the text returned by the server
+            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+            String str;
+            while ((str = in.readLine()) != null) {
+                str = in.readLine();
+                out += str;
+//                System.out.println(str);
+                // str is one line of text; readLine() strips the newline character(s)
+            }
+            in.close();
+        } catch (IOException ignored) {}
+        return out;
     }
 
     @Contract(pure = true)

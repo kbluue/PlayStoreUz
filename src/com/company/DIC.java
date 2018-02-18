@@ -1,10 +1,9 @@
 package com.company;
 
-import ipNX.HB;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,17 +13,26 @@ import java.util.List;
  */
 public class DIC {
 
+    final static String localPath = Paths.get("").toAbsolutePath().toString();
+
     public static void main(String[] args){
 
         bcorpDIC();
+
     }
 
+    /**
+     *
+     * Print All Possible Version
+     *
+     * @param word
+     */
     static void PAPV(word word){
 
         int num = 0, fnum = 0;
 
         try {
-            System.setOut(new PrintStream(new File("console.txt")));
+            System.setOut(new PrintStream(new File(localPath + "console\\0.txt")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -38,7 +46,7 @@ public class DIC {
                 num = 0;
                 fnum++;
                 try {
-                    System.setOut(new PrintStream(new File("console.txt" + fnum)));
+                    System.setOut(new PrintStream(new File(localPath + "\\console\\" + fnum + ".txt" )));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -85,6 +93,16 @@ public class DIC {
             length = digits.length;
         }
 
+        word setInitial(String initialState){
+            if (length != initialState.length()) System.err.println("Initial Value Error");
+            else {
+                for (int i = 0; i < length; i++) {
+                    digits[i].setInitial(String.valueOf(initialState.charAt(i)));
+                }
+            }
+            return this;
+        }
+
         @Override
         public String toString() {
             String out = "";
@@ -121,25 +139,33 @@ public class DIC {
             currentValue = getCurrentValue();
         }
 
-        digit bothCases(){
-            ArrayList<String> altAplha = new ArrayList<>();
-            List<String> upper = Arrays.asList(UPPERALPHA);
-            List<String> lower = Arrays.asList(LOWERALPHA);
-            for (String s : values) {
-                if (upper.contains(s)) altAplha.add(s.toLowerCase());
-                else if (lower.contains(s)) altAplha.add(s.toUpperCase());
-            }
-            this.values = removeDuplicates(merge(values, altAplha.toArray(new String[altAplha.size()])));
-            this.length = values.length;
-            return this;
-        }
-
         digit(digit digit){
             this.values = digit.values;
             length = values.length;
             cycle = false;
             currentIndex = 0;
             currentValue = getCurrentValue();
+        }
+
+        digit bothCases(){
+            List<String> altAlpha = new ArrayList<>();
+            List<String> upper = Arrays.asList(UPPERALPHA);
+            List<String> lower = Arrays.asList(LOWERALPHA);
+            for (String s : values) {
+                if (upper.contains(s)) altAlpha.add(s.toLowerCase());
+                else if (lower.contains(s)) altAlpha.add(s.toUpperCase());
+            }
+            this.values = removeDuplicates(merge(values, altAlpha.toArray(new String[altAlpha.size()])));
+            this.length = values.length;
+            return this;
+        }
+
+        digit setInitial(String initialState){
+            int indexOf = Arrays.asList(values).indexOf(initialState);
+            if (indexOf < 0) System.err.println(initialState + " is not a possible value of this digit");
+            else currentIndex = indexOf;
+            currentValue = getCurrentValue();
+            return this;
         }
 
         @Override

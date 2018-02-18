@@ -22,7 +22,8 @@ public class RouterRun{
 
         for (String s : HB.ADDRESS) {
             Router router = new Router(s);
-            HB.printToFile(HB.localPath + "\\routerStore\\" + router.getLocation() + ".rtr", router.toString());
+            String location = HB.localPath + "\\routerStore\\" + router.getLocation() + ".rtr";
+            HB.printToFile(location, router.toString());
         }
     }
 
