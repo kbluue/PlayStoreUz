@@ -3,7 +3,6 @@ package ipNX;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.MissingFormatArgumentException;
 import java.util.Scanner;
 
 /**
@@ -18,7 +17,7 @@ public class CSMS{
                     gather(new Scanner(new String(Files.readAllBytes(Paths.get("" +
                             "C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\source.csms" +
                             ""))).split("tbody")[1])));
-        } catch (IOException | MissingFormatArgumentException ignored){}
+        } catch (IOException  ignored){}
     }
 
     public static String gather(Scanner in){
@@ -28,7 +27,7 @@ public class CSMS{
         in.nextLine();
         while (in.hasNextLine()){
             String link[] = extract(in);
-            if (link[0] != null) out += String.format(format, new Object[]{link});
+            if (link[0] != null) out += String.format(format, link);
         }
         return out;
     }
