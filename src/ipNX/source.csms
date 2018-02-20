@@ -211,7 +211,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000013'>SYNGLAXINIKJ001</a></td>
 						<td><a href='customer_link?s=0000000013'>SYNGENTA NIGERIA</a></td>
 						<td>Ikeja</td>
@@ -343,7 +343,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000037'>CECAABPINABJ001</a></td>
 						<td><a href='customer_link?s=0000000037'>CEC AFRICA</a></td>
 						<td>Abuja</td>
@@ -421,13 +421,13 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000050'>FCTERC/INT/ABJ/01</a></td>
 						<td><a href='customer_link?s=0000000050'>FCT EDUCATION RESOURCE CENTRE</a></td>
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000051'>FIR INT/ABJ/01</a></td>
 						<td><a href='customer_link?s=0000000051'>FIRS</a></td>
 						<td>Abuja</td>
@@ -457,7 +457,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000056'>IOM/INT/ASO/ABJ/01</a></td>
 						<td><a href='customer_link?s=0000000056'>IOM - ASOKORO</a></td>
 						<td>Abuja</td>
@@ -535,7 +535,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000069'>PATI/INT/ABJ/01</a></td>
 						<td><a href='customer_link?s=0000000069'>PATHFINDER INTERNATIONAL - ABUJA</a></td>
 						<td>Abuja</td>
@@ -595,7 +595,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000079'>T&CO/INT/IDU/ABJ/02</a></td>
 						<td><a href='customer_link?s=0000000079'>TRAVELFIX & CO - IDU YARD</a></td>
 						<td>Abuja</td>
@@ -643,7 +643,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000087'>ZS&C/INT/GAK/EDET/ABJ/02</a></td>
 						<td><a href='customer_link?s=0000000087'>ZEMANSKY SYSTEMS & COMMUNICATION - GARKI AREA 11- EDET</a></td>
 						<td>Abuja</td>
@@ -709,7 +709,7 @@
 						<td>Kano</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000098'>VT&TL/INT/KANO/01</a></td>
 						<td><a href='customer_link?s=0000000098'>VISA TRAVEL AND TOURS LIMITED</a></td>
 						<td>Kano</td>
@@ -739,19 +739,19 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000103'>UBAPABWVPABJ066</a></td>
 						<td><a href='customer_link?s=0000000103'>UBA Ministry of Justices</a></td>
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000104'>UBAPABWVPABJ017</a></td>
 						<td><a href='customer_link?s=0000000104'>UBA  Mogadishu Barracks</a></td>
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000105'>UBAPABWVPABJ020</a></td>
 						<td><a href='customer_link?s=0000000105'>UBA NBC</a></td>
 						<td>Abuja</td>
@@ -997,7 +997,7 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000148'>UBAPABWVPABJ065</a></td>
 						<td><a href='customer_link?s=0000000148'>UBA Ceddi (Abuja)</a></td>
 						<td>Abuja</td>
@@ -1189,7 +1189,7 @@
 						<td>Apapa</td>
 						<td>VPN</td>
 						<td>FTTH</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000663'>FCMBLAPVPMAR032</a></td>
 						<td><a href='customer_link?s=0000000663'>FCMB TO BANKONE SERVER - APPZONE</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -1225,7 +1225,7 @@
 						<td>Ikeja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000609'>FBNPLAXVPAPP075</a></td>
 						<td><a href='customer_link?s=0000000609'>FBN APAPA BURMA RD</a></td>
 						<td>Apapa</td>
@@ -2053,7 +2053,7 @@
 						<td>Ikeja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000321'>STERLAWVPTIN006</a></td>
 						<td><a href='customer_link?s=0000000321'>STERLING TINCAN</a></td>
 						<td>Ikeja</td>
@@ -2473,7 +2473,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000396'>STERLAWINIKJ004</a></td>
 						<td><a href='customer_link?s=0000000396'>SCB NPF IKEJA</a></td>
 						<td>Ikeja</td>
@@ -2809,7 +2809,7 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000472'>FCMBABPVPKAN014</a></td>
 						<td><a href='customer_link?s=0000000472'>FCMB BOMPAI ROAD</a></td>
 						<td>Abuja</td>
@@ -2977,7 +2977,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000504'>ACCELAPINIKO009</a></td>
 						<td><a href='customer_link?s=0000000504'>2MBPS RADIO LINK AT ODOGUNYAN BRANCH, IKORODU </a></td>
 						<td>Ikeja</td>
@@ -3097,7 +3097,7 @@
 						<td>Apapa</td>
 						<td>VPN</td>
 						<td>FTTH</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000526'>GTBALAXVPMAR018</a></td>
 						<td><a href='customer_link?s=0000000526'>GTB BROADSTREET ATM </a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -3187,7 +3187,7 @@
 						<td>Ikeja</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000541'>ACCELAWVPIDU001</a></td>
 						<td><a href='customer_link?s=0000000541'>ACCESS BANK VPN IDUMOTA</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -3295,7 +3295,7 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000563'>JAIZABWVPABJ006</a></td>
 						<td><a href='customer_link?s=0000000563'>JAIZ BANK EFCC</a></td>
 						<td>Abuja</td>
@@ -4183,7 +4183,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000734'>STANLAWVPAJA003</a></td>
 						<td><a href='customer_link?s=0000000734'>STANBIC IBTC BADORE (AJAH)</a></td>
 						<td>Lekki</td>
@@ -4453,7 +4453,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000774'>ABK/INT/YABA/01</a></td>
 						<td><a href='customer_link?s=0000000774'>ABK CHAMBERS</a></td>
 						<td>Ikeja</td>
@@ -4795,7 +4795,7 @@
 						<td>PHC</td>
 						<td>LDS</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000844'>ASSOPHWINGAR001</a></td>
 						<td><a href='customer_link?s=0000000844'>ASSOTEL</a></td>
 						<td>PHC</td>
@@ -4825,7 +4825,7 @@
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000849'>HONLPHWINGRA001</a></td>
 						<td><a href='customer_link?s=0000000849'>HARTMANN OFFSHORE NIG.LTD</a></td>
 						<td>PHC</td>
@@ -4855,7 +4855,7 @@
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000854'>Emirate Kano</a></td>
 						<td><a href='customer_link?s=0000000854'>Emirate Kano</a></td>
 						<td>Kano</td>
@@ -5071,7 +5071,7 @@
 						<td>Ikoyi/Lagos Island</td>
 						<td>VPN</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000890'>CRSPLAXINLAG001</a></td>
 						<td><a href='customer_link?s=0000000890'>CRUSADER STERLING PENSIONS</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -5371,7 +5371,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000940'>FOR/KAN/INT/01</a></td>
 						<td><a href='customer_link?s=0000000940'>FOREVER LIVING KANO</a></td>
 						<td>Ikeja</td>
@@ -5563,13 +5563,13 @@
 						<td>Victoria Island</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000972'>BRSHLAXINVIC001</a></td>
 						<td><a href='customer_link?s=0000000972'>BROKEN SHACKLES LIMITED</a></td>
 						<td>Victoria Island</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000973'>PETOLAXINIKY001</a></td>
 						<td><a href='customer_link?s=0000000973'>PETRALON ENERGY</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -5605,7 +5605,7 @@
 						<td>Kano</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000000979'>DESIPHWINGRA001</a></td>
 						<td><a href='customer_link?s=0000000979'>DESICON ENGINEERING LIMITED</a></td>
 						<td>PHC</td>
@@ -5689,13 +5689,13 @@
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000993'>SSNLPHWINDLI001</a></td>
 						<td><a href='customer_link?s=0000000993'>SPYGATE SYSTEMS NIGERIA LIMITED</a></td>
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000000994'>TOT/INT/PHC/01</a></td>
 						<td><a href='customer_link?s=0000000994'>TOTAL EXPLORATION & PRODUCTION NIG. LTD [TO BE DELETED]</a></td>
 						<td>PHC</td>
@@ -5767,7 +5767,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001006'>Layer 3 (Diamond Bank DR)</a></td>
 						<td><a href='customer_link?s=0000001006'>Layer 3 (Diamond Bank DR)</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -5851,7 +5851,7 @@
 						<td>Kano</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001020'>NAOCABPINABJ001</a></td>
 						<td><a href='customer_link?s=0000001020'>AGIP NAOC Link, Abuja </a></td>
 						<td>Abuja</td>
@@ -5893,7 +5893,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001027'>CONTEABWINMAI001</a></td>
 						<td><a href='customer_link?s=0000001027'>CONTEGO TECHNOLOGIES NIGERIA LIMITED</a></td>
 						<td>Abuja</td>
@@ -5947,7 +5947,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001037'>UACRLAXINIKJ001</a></td>
 						<td><a href='customer_link?s=0000001037'>UAC RESTAURANTS        </a></td>
 						<td>Abuja</td>
@@ -6013,7 +6013,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001057'>PORTEA/IKJ/INT/01</a></td>
 						<td><a href='customer_link?s=0000001057'>SKYE CAPIC SELECT NIG. LTD (PROTEA HOTEL)</a></td>
 						<td>Ikeja</td>
@@ -6109,7 +6109,7 @@
 						<td>Apapa</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001073'>CONTLAWVPEFC020</a></td>
 						<td><a href='customer_link?s=0000001073'>GALAXY  Link To PEF MRS/Chevron Apapa</a></td>
 						<td>Apapa</td>
@@ -6247,13 +6247,13 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001096'>ECOBLAWVPONN037</a></td>
 						<td><a href='customer_link?s=0000001096'> ECOBANK ONNE TO HQ LAGOS</a></td>
 						<td>PHC</td>
 						<td>LDS</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001097'>ECOBLAWVPPPM038</a></td>
 						<td><a href='customer_link?s=0000001097'> ECOBANK PPMC TO HQ LAGOS</a></td>
 						<td>PHC</td>
@@ -6271,7 +6271,7 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001100'>ZENIABWVPABJ034</a></td>
 						<td><a href='customer_link?s=0000001100'>Zenith Garki3 eagle House</a></td>
 						<td>Abuja</td>
@@ -6493,7 +6493,7 @@
 						<td>Apapa</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001139'>NCR MARYLAND</a></td>
 						<td><a href='customer_link?s=0000001139'>NCR MARYLAND</a></td>
 						<td>Ikeja</td>
@@ -6505,7 +6505,7 @@
 						<td>Ikoyi/Lagos Island</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001141'>RENMLAXVPOPB002</a></td>
 						<td><a href='customer_link?s=0000001141'>REN MONEY OPEBI</a></td>
 						<td>Ikeja</td>
@@ -6523,7 +6523,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001144'>NPFMABWVPINT001</a></td>
 						<td><a href='customer_link?s=0000001144'>NIGERIAN POLICE FORCE MORTGAGE BANK</a></td>
 						<td>Abuja</td>
@@ -6727,13 +6727,13 @@
 						<td>Victoria Island</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001181'>CDGLLAWINMIL005</a></td>
 						<td><a href='customer_link?s=0000001181'>CONTINENTAL DURABLE GOODS LIMITED</a></td>
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001182'>KECLLAXINLAG002</a></td>
 						<td><a href='customer_link?s=0000001182'>KOHASA ENGINEERING COMPANY LTD</a></td>
 						<td>PHC</td>
@@ -6865,7 +6865,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001205'>CONTLAWVPFRS093</a></td>
 						<td><a href='customer_link?s=0000001205'>CONTENT OASIS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -6895,7 +6895,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001210'>CONTLAWVPCOA102</a></td>
 						<td><a href='customer_link?s=0000001210'>CONTENT OASIS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -6937,7 +6937,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001217'>CONTLAWVPNNV048</a></td>
 						<td><a href='customer_link?s=0000001217'>CONTENT OASIS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -6961,7 +6961,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001221'>CONTLAWVPIKJ056</a></td>
 						<td><a href='customer_link?s=0000001221'>CONTENT OASIS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -6991,7 +6991,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001226'>CONTLAWVPIKJ041</a></td>
 						<td><a href='customer_link?s=0000001226'>CONTENT OASIS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -7507,7 +7507,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001315'>IBILLAXINVIC001</a></td>
 						<td><a href='customer_link?s=0000001315'>IBILE HOLDINGS</a></td>
 						<td>Victoria Island</td>
@@ -7561,7 +7561,7 @@
 						<td>Victoria Island</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001324'>AEROLAWINIKJ001</a></td>
 						<td><a href='customer_link?s=0000001324'>AERO CONTRACTOR</a></td>
 						<td>Ikeja</td>
@@ -7597,7 +7597,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001331'>AFPRLAWINIKO001</a></td>
 						<td><a href='customer_link?s=0000001331'>AFRICAN PRUDENTIAL 7MBPS INTERNET SERVICE VIA RADIO , IKORODU ROAD </a></td>
 						<td>Abuja</td>
@@ -7621,7 +7621,7 @@
 						<td>Apapa</td>
 						<td>Internet</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001335'>FANMLAWINYAB005</a></td>
 						<td><a href='customer_link?s=0000001335'>FAN MILK 512KBPS DEDICATED INTERNET SERVICE AT YABA (MDC)</a></td>
 						<td>Victoria Island</td>
@@ -7645,7 +7645,7 @@
 						<td>Kano</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001338'>STALLAWINVIC001</a></td>
 						<td><a href='customer_link?s=0000001338'>STALLION_GROUP AJOSE ADEOGUN</a></td>
 						<td>Victoria Island</td>
@@ -7795,7 +7795,7 @@
 						<td>Ikoyi/Lagos Island</td>
 						<td>VPN</td>
 						<td>FTTH</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001375'>ASOSLAWINIKO009</a></td>
 						<td><a href='customer_link?s=0000001375'>ASO SAVINGS & LOANS TO V/I, LAGOS</a></td>
 						<td>Victoria Island</td>
@@ -8191,7 +8191,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001441'>INNOLAWINIKY004</a></td>
 						<td><a href='customer_link?s=0000001441'>INTERKEL LIMITED</a></td>
 						<td>Ikoyi/Lagos Island</td>
@@ -8473,7 +8473,7 @@
 						<td>Kano</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001488'>OKISPHWINTAM001</a></td>
 						<td><a href='customer_link?s=0000001488'>O.K ISOKARIARI & SONS (NIG) LIMITED</a></td>
 						<td>PHC</td>
@@ -8785,7 +8785,7 @@
 						<td>Lekki</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001540'>RADCLAXINVIC001</a></td>
 						<td><a href='customer_link?s=0000001540'>RADIX CAPITAL PARTNERS LIMITED</a></td>
 						<td>Victoria Island</td>
@@ -9079,7 +9079,7 @@
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001589'>TELNPHXINMIC004</a></td>
 						<td><a href='customer_link?s=0000001589'>TELNET NIGERIA LIMITED</a></td>
 						<td>PHC</td>
@@ -9265,7 +9265,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001620'>WAKNPHWINTRA004</a></td>
 						<td><a href='customer_link?s=0000001620'>WAKANOW (ZEEP TRAVEL) PHC</a></td>
 						<td>PHC</td>
@@ -9295,7 +9295,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001625'>KPMGLAWINVIC001</a></td>
 						<td><a href='customer_link?s=0000001625'>KPMG</a></td>
 						<td>Victoria Island</td>
@@ -9325,7 +9325,7 @@
 						<td>Victoria Island</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001630'>CONTLAWVPNEX090</a></td>
 						<td><a href='customer_link?s=0000001630'>CONTENT OASIS LIMITED NGA Lagos</a></td>
 						<td>Victoria Island</td>
@@ -9397,7 +9397,7 @@
 						<td>Abuja</td>
 						<td>Internet</td>
 						<td>FTTH</td>
-						<td>UNKNOWN</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001642'>PANALAWINSUR014</a></td>
 						<td><a href='customer_link?s=0000001642'>PANABIZ (TOLARAM GROUP) Surulere</a></td>
 						<td>Ikeja</td>
@@ -9457,7 +9457,7 @@
 						<td>Abuja</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001652'>NAWHABWINAGU001</a></td>
 						<td><a href='customer_link?s=0000001652'>Nigerian Army Welfare Holdings Limited</a></td>
 						<td>Abuja</td>
@@ -9469,7 +9469,7 @@
 						<td>PHC</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001654'>NEWCLAWINVIC002</a></td>
 						<td><a href='customer_link?s=0000001654'>NEWCROSS </a></td>
 						<td>PHC</td>
@@ -9661,7 +9661,7 @@
 						<td>Apapa</td>
 						<td>VPN</td>
 						<td>WIMAX</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001686'>ISONIBWINDUG005</a></td>
 						<td><a href='customer_link?s=0000001686'>SPANCO CHANNEL BPO LIMITED</a></td>
 						<td>Ibadan</td>
@@ -9889,7 +9889,7 @@
 						<td>PHC</td>
 						<td>VPN</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001724'>ECOBLAWVPINT015</a></td>
 						<td><a href='customer_link?s=0000001724'>ECOBANK NIGERIA PLC Valucard</a></td>
 						<td>Ikeja</td>
@@ -9937,7 +9937,7 @@
 						<td>Ibadan</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001732'>CNSOABWINWUS001</a></td>
 						<td><a href='customer_link?s=0000001732'>CONTACT SOLUTIONS LIMITED (CONSOL)</a></td>
 						<td>Abuja</td>
@@ -10015,7 +10015,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>UP</td>
+						<td>DOWN</td>
 						</tr><tr><td><a href='customer_link?s=0000001745'>INFPLAWINLAG001</a></td>
 						<td><a href='customer_link?s=0000001745'>INFOPRIVE SERVICE LIMITED(Esentry Systems Limited)</a></td>
 						<td>Victoria Island</td>
@@ -10075,7 +10075,7 @@
 						<td>Ikeja</td>
 						<td>Internet</td>
 						<td>PTP</td>
-						<td>DOWN</td>
+						<td>UP</td>
 						</tr><tr><td><a href='customer_link?s=0000001755'>INSOLAXVPLEK011</a></td>
 						<td><a href='customer_link?s=0000001755'>INTERNET SOLUTIONS LIMITED</a></td>
 						<td>Lekki</td>

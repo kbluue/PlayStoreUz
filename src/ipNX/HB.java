@@ -1,7 +1,5 @@
 package ipNX;
 
-import org.jetbrains.annotations.Contract;
-
 import java.io.*;
 import java.net.URL;
 import java.nio.file.Paths;
@@ -11,6 +9,10 @@ import java.util.Objects;
  * Created by _kbluue_ on 1/5/2018.
  */
 public class HB {
+
+//    HB(String a,String b){
+//        printToFile(a,b);
+//    }
 
     final static String localPath = Paths.get("").toAbsolutePath().toString();
 
@@ -80,7 +82,6 @@ public class HB {
         return out;
     }
 
-    @Contract(pure = true)
     static String coat(String s){
         return "\"" + s + "\"";
     }
