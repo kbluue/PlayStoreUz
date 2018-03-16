@@ -11,13 +11,13 @@ import java.util.Scanner;
 public class CSMS{
 
     public static void main(String[] args){
-//        System.out.println(HB.readFromWWW("62.173.34.213/csms/view_customers"));
-        try {
-            HB.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\links.csms",
-                    gather(new Scanner(new String(Files.readAllBytes(Paths.get("" +
-                            "C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\source.csms" +
-                            ""))).split("tbody")[1])));
-        } catch (IOException  ignored){}
+        System.out.println(HB.readFromWWW("62.173.34.213/csms/view_customers"));
+//        try {
+//            HB.printToFile("C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\links.csms",
+//                    gather(new Scanner(new String(Files.readAllBytes(Paths.get("" +
+//                            "C:\\Users\\_kbluue_\\OneDrive\\Documents\\Uzor\\src\\ipNX\\source.csms" +
+//                            ""))).split("tbody")[1])));
+//        } catch (IOException  ignored){}
     }
 
     public static String gather(Scanner in){
