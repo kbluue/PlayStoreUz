@@ -4,8 +4,6 @@
       <root url="jar://$PROJECT_DIR$/apache-commons-net.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/apache-commons-net.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
